@@ -1,0 +1,267 @@
+/* Defaults */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  color: #FFF;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+nav,
+button {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Responsive images */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#btn-purple button{
+  all: unset;
+  color: #fff;
+  background-color: #4a49c9;
+  border-radius: 1em;
+  width: 7.5em;
+  height: 2em;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+/* Header logo/hiding menu */
+
+
+/* Basic Flex Constructs */
+
+.flex {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .flex {
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 0 15px;
+  }
+}
+
+/* Sections */
+section {
+  box-sizing: border-box;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+#main{
+  background-color: #F0f0f0;
+  padding-left: 7em;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+}
+
+#main h1{
+  color: #242456;
+  font-size: 4em;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#main-btn button{
+  all: unset;
+  color: #fff;
+  background-color: #4a49c9;
+  border-radius: 1em;
+  width: 10em;
+  height: 2.25em;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+#logos {
+  background-color: #242456;
+  display: flex;
+  flex-direction: column;
+}
+
+#logos h2{
+  text-align: center;
+  color: #FFF;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 5vw;
+}
+
+#logo-container .logo{
+  width: 15vw;
+  padding: 10px;
+}
+
+#dentsu {
+  margin-top: 3em;
+}
+
+#amex {
+  margin-top: -1em;
+}
+
+#verizon {
+  margin-top: 3em;
+}
+
+#mckinsey {
+  margin-top: 2em;
+}
+
+@media (max-width: 960px) {
+  #logo-container.logo {
+    max-width: 30vw;
+  }
+}
+
+#empower {
+  display: flex;
+  flex-direction: row;
+}
+
+#empower #empower-img{
+    flex: 0 0 50vw;
+    padding: 2em 7em;
+}
+
+#empower #empower-img img{
+    width: 100%;
+}
+
+#empower #empower-text{
+    flex: 0 0 50vw;
+    padding: 2em 7em;
+    display: flex;
+    flex-direction: column;
+}
+
+#empower #empower-text h2{
+  font-size: 3.5em;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+}
+
+#empower #empower-text h3{
+  font-size: 1.25em;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000;
+}
+
+#empower #btn-purple {
+  margin: 1em calc(10vw + 1em);
+}
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f0f0;
+}
+
+#skills #skills-text {
+  flex: 0 0 50vw;
+  padding: 2em 7em;
+  display: flex;
+  flex-direction: column;
+}
+
+#skills #skills-text h2{
+  font-size: 3.5em;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  margin-bottom: 0;
+}
+
+#skills #skills-text h3{
+  font-size: 1.25em;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000;
+}
+
+#skills #btn-purple {
+  margin: 1em calc(10vw + 1em);
+}
+
+#skills #skills-img{
+  flex: 0 0 50vw;
+  padding: 2em 7em;
+}
+
+#skills #skills-img img {
+  width: 100%;
+}
+
+
+.footer {
+  width: 100vw;
+  background-color: #242456;
+  color: #fff;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer #footer-text h3 {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.footer #contact {
+  all: unset;
+  color: #4a49c9;
+  background-color: #fff;
+  border-radius: 1em;
+  width: 10em;
+  height: 2.25em;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  margin-bottom: 2em;
+  font-weight: 900;
+}
+
+
+button:hover {
+  text-decoration: underline !important;
+}
