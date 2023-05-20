@@ -38,6 +38,7 @@ img {
   height: auto;
 }
 
+
 #btn-purple button{
   all: unset;
   color: #fff;
@@ -80,7 +81,7 @@ section {
   padding-left: 7em;
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: 60vh;
 }
 
 #main h1{
