@@ -40,6 +40,18 @@ img {
   text-align: center;
 }
 
+
+#btn-purple button:hover{
+  all: unset;
+  color: #fff;
+  background-color: #1816a6;
+  border-radius: 1em;
+  width: 7.5em;
+  height: 2em;
+  font-size: 1.25em;
+  text-align: center;
+}
+
 /* Header logo/hiding menu */
 
 
@@ -84,13 +96,27 @@ section {
   color: #fff;
   background-color: #4a49c9;
   border-radius: 1em;
-  width: 10em;
-  height: 2.25em;
+  width: 8em;
+  height: 2em;
   font-size: 2em;
   text-align: center;
   margin: auto;
   margin-bottom: 2em;
 }
+
+#main-btn button:hover{
+  all: unset;
+  color: #fff;
+  background-color: #1816a6;
+  border-radius: 1em;
+  width: 8em;
+  height: 2em;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
 
 #logos {
   background-color: #242456;
@@ -102,7 +128,6 @@ section {
   text-align: center;
   color: #FFF;
   font-size: 1.5em;
-  text-transform: uppercase;
 }
 
 #logo-container {
@@ -166,14 +191,11 @@ section {
   margin-bottom: 0;
 }
 
-#empower #empower-text h3{
-  font-size: 1.25em;
+#empower #empower-text p{
+  font-size: 1em;
   color: #000;
 }
 
-#empower #btn-purple {
-  margin: 1em calc(10vw + 1em);
-}
 
 #skills {
   display: flex;
@@ -194,14 +216,11 @@ section {
   margin-bottom: 0;
 }
 
-#skills #skills-text h3{
-  font-size: 1.25em;
+#skills #skills-text p{
+  font-size: 1em;
   color: #000;
 }
 
-#skills #btn-purple {
-  margin: 1em calc(10vw + 1em);
-}
 
 #skills #skills-img{
   flex: 0 0 50vw;
@@ -223,10 +242,10 @@ section {
 }
 
 .footer #footer-text h3 {
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .footer #contact {
@@ -234,9 +253,23 @@ section {
   color: #4a49c9;
   background-color: #fff;
   border-radius: 1em;
-  width: 10em;
-  height: 2.25em;
-  font-size: 2em;
+  width: 7em;
+  height: 2em;
+  font-size: 1.5em;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2em;
+  font-weight: 900;
+}
+
+.footer #contact:hover {
+  all: unset;
+  color: #4a49c9;
+  background-color: #d3d3d3;
+  border-radius: 1em;
+  width: 7em;
+  height: 2em;
+  font-size: 1.5em;
   text-align: center;
   margin: auto;
   margin-bottom: 2em;
