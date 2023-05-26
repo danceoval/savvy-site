@@ -89,9 +89,15 @@ section {
 #main h1{
   color: #242456;
   font-size: 4em;
+  margin-bottom: 0;
 }
 
-#main-btn button{
+#main p{
+  color: #242456;
+  font-size: 1.25em;
+}
+
+#main-btn{
   all: unset;
   color: #fff;
   background-color: #4a49c9;
@@ -104,7 +110,7 @@ section {
   margin-bottom: 2em;
 }
 
-#main-btn button:hover{
+#main-btn:hover{
   all: unset;
   color: #fff;
   background-color: #1816a6;
@@ -248,7 +254,7 @@ section {
   font-weight: 200;
 }
 
-.footer #contact {
+.contact {
   all: unset;
   color: #4a49c9;
   background-color: #fff;
@@ -262,18 +268,16 @@ section {
   font-weight: 900;
 }
 
-.footer #contact:hover {
-  all: unset;
+.contact:hover {
   color: #4a49c9;
   background-color: #d3d3d3;
+}
+
+.contact-main {
   border-radius: 1em;
-  width: 7em;
+  width: 8em;
   height: 2em;
-  font-size: 1.5em;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 2em;
-  font-weight: 900;
+  font-size: 2em;
 }
 
 
