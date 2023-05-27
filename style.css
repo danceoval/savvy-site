@@ -82,9 +82,15 @@ section {
   background-color: #F0f0f0;
   padding-left: 7em;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 60vh;
 }
+
+#main-text{
+  display: flex;
+  flex-direction: column;
+}
+
 
 #main h1{
   color: #242456;
@@ -121,6 +127,12 @@ section {
   text-align: center;
   margin: auto;
   margin-bottom: 2em;
+}
+
+#main-photo{
+  max-width: 40vw;
+  width: 500px;
+  margin: auto;
 }
 
 
