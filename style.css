@@ -344,8 +344,3 @@ section {
   height: 2em;
   font-size: 2em;
 }
-
-
-button:hover {
-  text-decoration: underline !important;
-}
