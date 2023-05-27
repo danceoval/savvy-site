@@ -29,6 +29,59 @@ img {
 }
 
 
+header {
+  display: flex;
+  position: fixed;
+  padding: 10px;
+  width: 100vw;
+  color: #fff;
+  background-color: #d3d3d3;
+  z-index: 2;
+  height: 3em
+}
+
+header #logo {
+  flex-grow: 1;
+  font-size: 1.3em;
+  color: #242456;
+  margin: 0;
+  position: absolute;
+  top: 0;
+}
+
+header #logo #logo-dot {
+  color: #4a49c9;
+  font-size: 1.5em
+}
+
+header nav {
+  display: flex;
+}
+
+#links {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.nav-item {
+  margin: 0 1.5em 0 0;
+}
+
+.nav-item a {
+  font-size: 1.3em;
+  color: #242456;
+  text-decoration: none;
+  padding: 5px;
+}
+.nav-item a:hover {
+  color: #202b47;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
+}
+
+
 #btn-purple button{
   all: unset;
   color: #fff;
