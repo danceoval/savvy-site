@@ -92,6 +92,7 @@ header nav {
   border-radius: 5px;
   background-color: #fff;
   box-shadow: #d3d3d3;
+  text-transform: uppercase;
 }
 
 #nav-contact:hover {
@@ -108,6 +109,8 @@ header nav {
   width: 10rem;
   height: 2.5rem;
   font-size: .875rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 
@@ -154,6 +157,7 @@ section {
 #main-text{
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 
@@ -177,6 +181,8 @@ section {
   height: 2.5rem;
   font-size: .875rem;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #main-btn:hover{
@@ -218,32 +224,13 @@ section {
   margin: 0 5vw;
 }
 
-#logo-container .logo{
-  width: 15vw;
-  padding: 10px;
+#logo-container img{
+  padding: .5em;
+  width: 60%;
+  margin: auto;
 }
 
-#dentsu {
-  margin-top: 3em;
-}
 
-#amex {
-  margin-top: -1em;
-}
-
-#verizon {
-  margin-top: 3em;
-}
-
-#mckinsey {
-  margin-top: 2em;
-}
-
-@media (max-width: 960px) {
-  #logo-container.logo {
-    max-width: 30vw;
-  }
-}
 
 #empower {
   display: flex;
@@ -253,6 +240,9 @@ section {
 #empower #empower-img{
     flex: 0 0 50vw;
     padding: 2em 7em;
+    max-width: 40vw;
+    width: 500px;
+    margin: auto;
 }
 
 #empower #empower-img img{
@@ -306,6 +296,9 @@ section {
 #skills #skills-img{
   flex: 0 0 50vw;
   padding: 2em 7em;
+  max-width: 40vw;
+  width: 500px;
+  margin: auto;
 }
 
 #skills #skills-img img {
@@ -335,12 +328,13 @@ section {
   background-color: #fff;
   margin: auto;
   margin-bottom: 2em;
-  font-weight: 900;
   border-radius: 0.5rem;
   width: 10rem;
   height: 2.5rem;
   font-size: .875rem;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .contact:hover {
