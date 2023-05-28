@@ -13,6 +13,10 @@ p {
   line-height: 1.5em;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -35,27 +39,29 @@ header {
   padding: 10px;
   width: 100vw;
   color: #fff;
-  background-color: #d3d3d3;
+  background-color: #f0f0f0;
   z-index: 2;
   height: 3em
 }
 
 header #logo {
   flex-grow: 1;
-  font-size: 1.3em;
+  font-size: 1.5rem;
   color: #242456;
-  margin: 0;
+  margin-top: 0;
+  margin-left: 0.825rem;
   position: absolute;
   top: 0;
 }
 
 header #logo #logo-dot {
   color: #4a49c9;
-  font-size: 1.5em
+  font-size: 2rem
 }
 
 header nav {
   display: flex;
+  margin-top: 0;
 }
 
 #links {
@@ -65,20 +71,31 @@ header nav {
 }
 
 .nav-item {
-  margin: 0 1.5em 0 0;
-}
-
-.nav-item a {
-  font-size: 1.3em;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  font-size: 0.875rem;
   color: #242456;
   text-decoration: none;
   padding: 5px;
 }
-.nav-item a:hover {
+
+.nav-item:hover {
   color: #202b47;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: #d3d3d3;
+}
+
+#nav-contact {
+  font-weight: normal;
+  font-size: 0.975rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
+}
+
+#nav-contact:hover {
+  background-color: #d3d3d3;
 }
 
 
@@ -86,23 +103,18 @@ header nav {
   all: unset;
   color: #fff;
   background-color: #4a49c9;
-  border-radius: 1em;
-  width: 7.5em;
-  height: 2em;
-  font-size: 1.25em;
   text-align: center;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: .875rem;
 }
 
 
 #btn-purple button:hover{
-  all: unset;
   color: #fff;
   background-color: #1816a6;
-  border-radius: 1em;
-  width: 7.5em;
-  height: 2em;
-  font-size: 1.25em;
-  text-align: center;
+
 }
 
 /* Header logo/hiding menu */
@@ -147,39 +159,36 @@ section {
 
 #main h1{
   color: #242456;
-  font-size: 4em;
+  font-size: 4rem;
   margin-bottom: 0;
 }
 
 #main p{
   color: #242456;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
 #main-btn{
   all: unset;
   color: #fff;
   background-color: #4a49c9;
-  border-radius: 1em;
-  width: 8em;
-  height: 2em;
-  font-size: 2em;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: .875rem;
   text-align: center;
-  margin: auto;
-  margin-bottom: 2em;
 }
 
 #main-btn:hover{
-  all: unset;
   color: #fff;
   background-color: #1816a6;
-  border-radius: 1em;
-  width: 8em;
-  height: 2em;
-  font-size: 2em;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 2em;
+}
+
+#contact-main {
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: .875rem;
 }
 
 #main-photo{
@@ -198,7 +207,8 @@ section {
 #logos h2{
   text-align: center;
   color: #FFF;
-  font-size: 1.5em;
+  font-size: .925rem;
+  font-weight: normal;
 }
 
 #logo-container {
@@ -257,13 +267,13 @@ section {
 }
 
 #empower #empower-text h2{
-  font-size: 3.5em;
+  font-size: 3.25rem;
   color: #000;
   margin-bottom: 0;
 }
 
 #empower #empower-text p{
-  font-size: 1em;
+  font-size: 1.125rem;
   color: #000;
 }
 
@@ -282,13 +292,13 @@ section {
 }
 
 #skills #skills-text h2{
-  font-size: 3.5em;
+  font-size: 3.25rem;
   color: #000;
   margin-bottom: 0;
 }
 
 #skills #skills-text p{
-  font-size: 1em;
+  font-size: 1.125rem;
   color: #000;
 }
 
@@ -312,8 +322,8 @@ section {
   flex-direction: column;
 }
 
-.footer #footer-text h3 {
-  font-size: 2em;
+.footer #footer-text h2 {
+  font-size: 3.125rem;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
@@ -323,14 +333,14 @@ section {
   all: unset;
   color: #4a49c9;
   background-color: #fff;
-  border-radius: 1em;
-  width: 7em;
-  height: 2em;
-  font-size: 1.5em;
-  text-align: center;
   margin: auto;
   margin-bottom: 2em;
   font-weight: 900;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: .875rem;
+  text-align: center;
 }
 
 .contact:hover {
@@ -338,9 +348,4 @@ section {
   background-color: #d3d3d3;
 }
 
-.contact-main {
-  border-radius: 1em;
-  width: 8em;
-  height: 2em;
-  font-size: 2em;
-}
+
