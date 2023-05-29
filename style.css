@@ -204,13 +204,13 @@ section {
 }
 
 
-#logos {
+.banner {
   background-color: #242456;
   display: flex;
   flex-direction: column;
 }
 
-#logos h2{
+.banner h2{
   text-align: center;
   color: #FFF;
   font-size: .925rem;
@@ -229,7 +229,23 @@ section {
   width: 60%;
   margin: auto;
 }
+#stats {
+  display: flex;
+  flex-direction: column;
+}
 
+#stats-container {
+  display: flex;
+  flex-direction: row;
+}
+.banner h3 {
+  color: #fff;
+  font-size: 1.75rem;
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  font-weight: normal;
+}
 
 
 #empower {
