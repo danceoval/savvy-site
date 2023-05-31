@@ -408,3 +408,137 @@ section {
   margin-bottom: 1rem;
 }
 
+/* Programs */
+
+#programs-main{
+  background-color: #F0f0f0;
+  padding-left: 7em;
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+}
+
+#programs-main-text{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  display: block;
+  width: 85vw;
+}
+
+
+#programs-main h1{
+  color: #242456;
+  font-size: 3.125rem;
+}
+
+#programs-main p{
+  color: #242456;
+  font-size: 1.25rem;
+}
+
+
+#programs-detail {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  width: 85vw;
+  margin: auto;
+}
+
+table {
+  border: 1px solid #242456;
+  border-collapse: collapse;
+  margin: 0;
+  margin-bottom: 5rem;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  color: #242456;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  border: 1px solid #242456;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #242456;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #242456;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+.inquire-btn{
+  all: unset;
+  color: #4a49c9;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 2em;
+  border-radius: 0.5rem;
+  font-size: .875rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
