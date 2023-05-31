@@ -52,6 +52,7 @@ header #logo {
   margin-left: 0.825rem;
   position: absolute;
   top: 0;
+  float: right;
 }
 
 header #logo #logo-dot {
@@ -62,21 +63,26 @@ header #logo #logo-dot {
 header nav {
   display: flex;
   margin-top: 0;
+  flex-direction: row;
 }
 
 #links {
   display: flex;
-  position: absolute;
-  right: 0;
+  flex-direction: row;
+  margin-left: 10rem;
 }
 
 .nav-item {
   margin-right: 0.5rem;
   font-weight: bold;
   font-size: 0.875rem;
-  color: #242456;
+  color: #4a49c9;
   text-decoration: none;
   padding: 5px;
+}
+
+.nav-item a {
+  color: #4a49c9;
 }
 
 .nav-item:hover {
@@ -93,6 +99,10 @@ header nav {
   background-color: #fff;
   box-shadow: #d3d3d3;
   text-transform: uppercase;
+  margin-right: 1.5rem;
+  padding: 10px;
+  position: absolute;
+  right: 0;
 }
 
 #nav-contact:hover {
