@@ -234,14 +234,29 @@ section {
   flex-direction: column;
 }
 
-.banner h3 {
-  color: #fff;
-  font-size: 1.75rem;
-  display: block;
-  margin: auto;
-  padding: 0.5rem;
-  font-weight: normal;
+
+.banner-white {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
+
+.banner-white h2{
+  text-align: center;
+  color: #242456;
+  font-size: .925rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.banner-white p {
+  color: #242456;
+}
+
+.banner-white .stat-no {
+  color: #4a49c9;
+}
+
 
 
 #empower {
