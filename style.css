@@ -215,13 +215,14 @@ section {
   color: #FFF;
   font-size: .925rem;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 #logo-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 5vw;
+  margin: 1.125rem 5vw;
 }
 
 #logo-container img{
@@ -281,17 +282,18 @@ section {
     padding: 2em 7em;
     display: flex;
     flex-direction: column;
+    color: #242456;
 }
 
 #empower #empower-text h2{
   font-size: 3.25rem;
-  color: #000;
+  color: #242456;
   margin-bottom: 0;
 }
 
 #empower #empower-text p{
   font-size: 1.125rem;
-  color: #000;
+  color: #242456;
 }
 
 
@@ -310,13 +312,13 @@ section {
 
 #skills #skills-text h2{
   font-size: 3.25rem;
-  color: #000;
+  color: #242456;
   margin-bottom: 0;
 }
 
 #skills #skills-text p{
   font-size: 1.125rem;
-  color: #000;
+  color: #242456;
 }
 
 
@@ -343,7 +345,7 @@ section {
 }
 
 .footer #footer-text h2 {
-  font-size: 3.125rem;
+  font-size: 2.625rem;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
@@ -383,7 +385,7 @@ section {
 }
 
 .stat-no {
-  font-size: 3.125rem;
+  font-size: 2.125rem;
 }
 
 
