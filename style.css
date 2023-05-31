@@ -234,10 +234,6 @@ section {
   flex-direction: column;
 }
 
-#stats-container {
-  display: flex;
-  flex-direction: row;
-}
 .banner h3 {
   color: #fff;
   font-size: 1.75rem;
@@ -356,6 +352,23 @@ section {
 .contact:hover {
   color: #4a49c9;
   background-color: #d3d3d3;
+}
+
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: auto;
+}
+
+.stats-container p{
+  margin: auto;
+  padding: 1rem;
+}
+
+.stat-no {
+  font-size: 3.125rem;
 }
 
 
