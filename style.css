@@ -103,6 +103,7 @@ header nav {
   padding: 10px;
   position: absolute;
   right: 0;
+  top: 5px;
 }
 
 #nav-contact:hover {
@@ -355,7 +356,7 @@ section {
 }
 
 .footer #footer-text h2 {
-  font-size: 2.625rem;
+  font-size: 2.25rem;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
@@ -392,10 +393,18 @@ section {
 .stats-container p{
   margin: auto;
   padding: 1rem;
+  display: inline-block;
 }
 
 .stat-no {
-  font-size: 2.125rem;
+  font-size: 3.25rem;
 }
 
+
+
+.footer .stats-container p{
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 1rem;
+}
 
