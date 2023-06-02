@@ -415,13 +415,13 @@ section {
   padding-left: 7em;
   display: flex;
   flex-direction: row;
-  height: 60vh;
 }
 
 #programs-main-text{
   display: flex;
   flex-direction: column;
   margin: auto;
+  padding-bottom: 1.5rem;
   display: block;
   width: 85vw;
 }
@@ -541,4 +541,33 @@ table th {
   font-weight: bold;
 }
 
+#special {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f0f0;
+}
+
+#special-head {
+  width: 42.5vw;
+  margin-left: 7.5vw;
+  margin-top: 3.125rem;
+  color: #242456;
+  font-size: 1.5rem;
+}
+
+#special-span {
+  color: #4a49c9;
+  font-style: italic;
+}
+
+#special ul {
+  width: 42.5vw;
+  margin-right: 7.5vw;
+  font-size: 1.125rem;
+  color: #242456;
+}
+
+#special li {
+  padding: 10px;
+}
 
