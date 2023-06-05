@@ -403,11 +403,13 @@ section {
 
 
 
+
 .footer .stats-container p{
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 1rem;
   margin-bottom: 1rem;
 }
+
+
 
 /* Programs */
 
