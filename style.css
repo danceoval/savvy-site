@@ -278,7 +278,7 @@ section {
 
 #empower #empower-img{
     flex: 0 0 50vw;
-    padding: 2em 7em;
+    padding: 2rem;
     max-width: 40vw;
     width: 500px;
     margin: auto;
@@ -290,7 +290,7 @@ section {
 
 #empower #empower-text{
     flex: 0 0 50vw;
-    padding: 2em 7em;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     color: #242456;
@@ -316,7 +316,8 @@ section {
 
 #skills #skills-text {
   flex: 0 0 50vw;
-  padding: 2em 7em;
+  padding: 2rem;
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
@@ -335,7 +336,7 @@ section {
 
 #skills #skills-img{
   flex: 0 0 50vw;
-  padding: 2em 7em;
+  padding: 2rem;
   max-width: 40vw;
   width: 500px;
   margin: auto;
@@ -441,20 +442,19 @@ section {
 #programs-detail {
   display: flex;
   flex-direction: row;
-  background-color: #fff;
-  width: 85vw;
-  margin: auto;
+  background-color: #242456;
+  padding-bottom: 1.5rem;
+
 }
 
 table {
-  border: 1px solid #242456;
+  border: 1px solid #fff;
   border-collapse: collapse;
-  margin: 0;
-  margin-bottom: 5rem;
   padding: 0;
-  width: 100%;
+  width: 85vw;
+  margin: auto;
   table-layout: fixed;
-  color: #242456;
+  color: #fff;
 }
 
 table caption {
@@ -463,7 +463,7 @@ table caption {
 }
 
 table tr {
-  border: 1px solid #242456;
+  border: 1px solid #fff;
   padding: .35em;
 }
 
@@ -500,13 +500,13 @@ table th {
   }
   
   table tr {
-    border-bottom: 3px solid #242456;
+    border-bottom: 3px solid #fff
     display: block;
     margin-bottom: .625em;
   }
   
   table td {
-    border-bottom: 1px solid #242456;
+    border-bottom: 1px solid #fff;
     display: block;
     font-size: .8em;
     text-align: right;
@@ -533,18 +533,23 @@ table th {
   color: #4a49c9;
   background-color: #fff;
   margin: auto;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   border-radius: 0.5rem;
   font-size: .875rem;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 0.25rem;
+}
+
+.inquire-btn:hover{
+  background-color: #d3d3d3;
 }
 
 #special {
   display: flex;
   flex-direction: row;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 #special-head {
