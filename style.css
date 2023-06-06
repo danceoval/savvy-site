@@ -110,7 +110,7 @@ header nav {
 }
 
 
-#btn-purple button{
+.btn-purple button{
   all: unset;
   color: #fff;
   background-color: #4a49c9;
@@ -124,7 +124,7 @@ header nav {
 }
 
 
-#btn-purple button:hover{
+.btn-purple button:hover{
   color: #fff;
   background-color: #1816a6;
 
@@ -633,6 +633,8 @@ table th {
   background-color: #f0f0f0;
   padding-top: 5rem;
   color: #242456;
+  display: flex;
+  flex-direction: row;
 }
 
 .checklist{
@@ -646,20 +648,56 @@ table th {
   width: calc(50vw - 5rem);
 }
 
-.txt-left img {
-  width: 250px;
+.form-right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+  width: calc(50vw - 5rem);
+  padding-top: 5rem;
+
+}
+
+#contact-us input{
+  width: 20rem;
+  height: 1.5rem;
+  margin-bottom: .75rem;
+}
+
+
+#logo-contact {
+  width: 5rem;
 }
 
 .testimonial-contact{
   font-style: italic;
+  width: 80%;
+}
+
+#test-head{
+  margin-bottom: 0;
+}
+
+#test-subhead{
+  margin-top: 1rem;
 }
 
 .testimonial-person{
   font-style: normal;
-  color: #4a49c9;
+}
+
+#logo-vz-testimonial{
+  width: 7.5rem;
 }
 
 .testimonial-contact-role{
   font-weight: bolder;
+  color: #4a49c9;
+}
+
+.privacy-policy{
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  width: 20rem;
 }
 
