@@ -9,7 +9,6 @@ body {
 }
 
 p {
-  color: #FFF;
   line-height: 1.5em;
 }
 
@@ -626,5 +625,41 @@ table th {
 .txt-right p {
   color: #242456;
   font-size: 1.125rem;
+}
+
+/*Contact */
+
+#contact {
+  background-color: #f0f0f0;
+  padding-top: 5rem;
+  color: #242456;
+}
+
+.checklist{
+  color: #242456;
+}
+
+.txt-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  width: calc(50vw - 5rem);
+}
+
+.txt-left img {
+  width: 250px;
+}
+
+.testimonial-contact{
+  font-style: italic;
+}
+
+.testimonial-person{
+  font-style: normal;
+  color: #4a49c9;
+}
+
+.testimonial-contact-role{
+  font-weight: bolder;
 }
 
