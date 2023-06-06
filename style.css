@@ -578,3 +578,53 @@ table th {
   padding: 10px;
 }
 
+/* Team */
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f0f0;
+  padding: 5rem 0;
+
+}
+
+.img-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  width: calc(50vw - 5rem);
+}
+
+.img-left img {
+  width: 500px;
+  border-radius: 15%;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #4a49c9;
+}
+
+.img-left h3{
+  margin-bottom: 0;
+  color: #242456;
+  font-size: 2.125rem;
+  margin-left: 2.5rem;
+}
+
+.img-left h4{
+  margin: 0 10px;
+  color: #4a49c9;
+  font-size: 1.825rem;
+  margin-left: 2.5rem;
+}
+
+.txt-right {
+  width: calc(50vw - 5rem);
+  margin-right: 5rem;
+  padding-top: 1.125rem;
+}
+
+.txt-right p {
+  color: #242456;
+  font-size: 1.125rem;
+}
+
