@@ -634,7 +634,7 @@ table th {
 }
 
 .img-left img {
-  width: 500px;
+  width: 20rem;
   border-radius: 15%;
   background-color: #fff;
   padding: 10px;
@@ -644,21 +644,20 @@ table th {
 .img-left h3{
   margin-bottom: 0;
   color: #242456;
-  font-size: 2.125rem;
-  margin-left: 2.5rem;
+  font-size: 2rem;
+  margin-left: 1.5rem;
 }
 
 .img-left h4{
   margin: 0 10px;
   color: #4a49c9;
-  font-size: 1.825rem;
-  margin-left: 2.5rem;
+  font-size: 1.75rem;
+  margin-left: 1.5rem;
 }
 
 .txt-right {
-  width: calc(50vw - 5rem);
-  margin-right: 5rem;
-  padding-top: 1.125rem;
+  width: calc(50vw - 10rem);
+  margin-right: 10rem;
 }
 
 .txt-right p {
