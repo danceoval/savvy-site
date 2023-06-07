@@ -140,22 +140,7 @@ img {
 
 }
 
-/* Header logo/hiding menu */
-
-
-/* Basic Flex Constructs */
-
-.flex {
-  display: flex;
-}
-
-@media screen and (max-width: 600px) {
-  .flex {
-    flex-flow: column wrap;
-    align-items: center;
-    padding: 0 15px;
-  }
-}
+/* main */
 
 /* Sections */
 section {
@@ -173,6 +158,8 @@ section {
   flex-direction: row;
   height: 60vh;
 }
+
+
 
 #main-text{
   display: flex;
@@ -218,10 +205,21 @@ section {
 }
 
 #main-photo{
-  max-width: 40vw;
-  width: 500px;
-  margin: auto;
+  display: none;
 }
+
+@media screen and (max-width: 600px) {
+  #main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #main-photo{
+    width: 80vw;
+    margin: auto;
+  }
+}
+
 
 
 .banner {
@@ -250,6 +248,14 @@ section {
   width: 60%;
   margin: auto;
 }
+
+@media screen and (max-width: 600px) {
+  #logo-container img{
+    width: 100%;
+  }
+
+}
+
 #stats {
   display: flex;
   flex-direction: column;
@@ -288,7 +294,6 @@ section {
 #empower #empower-img{
     flex: 0 0 50vw;
     padding: 2rem;
-    max-width: 40vw;
     width: 500px;
     margin: auto;
 }
@@ -314,6 +319,20 @@ section {
 #empower #empower-text p{
   font-size: 1.125rem;
   color: #242456;
+}
+
+@media screen and (max-width: 600px) {
+  #empower {
+    flex-direction: column;
+  }
+  #logo-container img{
+    width: 100%;
+  }
+
+  #empower br {
+    display: none;
+  }
+
 }
 
 
@@ -346,13 +365,23 @@ section {
 #skills #skills-img{
   flex: 0 0 50vw;
   padding: 2rem;
-  max-width: 40vw;
   width: 500px;
   margin: auto;
 }
 
 #skills #skills-img img {
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  #skills {
+    flex-direction: column;
+  }
+
+  #skills br {
+    display: none;
+  }
+
 }
 
 
@@ -637,6 +666,7 @@ table th {
   font-size: 1.125rem;
 }
 
+
 /*Contact */
 
 #contact {
@@ -709,5 +739,40 @@ table th {
   margin-bottom: 1rem;
   display: inline-block;
   width: 20rem;
+}
+
+@media screen and (max-width: 600px) {
+  .bio{
+    flex-direction: column
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  .img-left {
+    width: 90%;
+    margin: auto;
+    padding: 1.125rem;
+  }
+
+  .txt-left {
+    width: 100%;
+    margin: auto;
+    padding: 1.125rem;
+  }
+
+  .txt-right {
+    width: 100%;
+    margin: auto;
+    padding: 1.125rem;
+  }
+
+  .form-right {
+    width: 100%;
+    margin: auto;
+    padding: 1.125rem;
+  }
+
 }
 
