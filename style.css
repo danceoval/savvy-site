@@ -204,9 +204,25 @@ section {
   font-size: .875rem;
 }
 
-#main-photo{
-  display: none;
+.img-right{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+  width: calc(50vw - 5rem);
 }
+
+
+#main-photo {
+    flex: 0 0 50vw;
+    padding: 2rem;
+    width: 500px;
+    margin: auto;
+  }
+
+#main-photo  img{
+    width: 40rem;
+}
+
 
 @media screen and (max-width: 600px) {
   #main {
@@ -215,9 +231,10 @@ section {
   }
 
   #main-photo{
-    width: 80vw;
-    margin: auto;
+    display: none;
   }
+
+
 }
 
 
@@ -240,7 +257,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 1.125rem 5vw;
+  margin: .5rem 5vw;
 }
 
 #logo-container img{
@@ -308,6 +325,7 @@ section {
     display: flex;
     flex-direction: column;
     color: #242456;
+    margin: auto;
 }
 
 #empower #empower-text h2{
