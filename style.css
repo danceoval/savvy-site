@@ -408,8 +408,8 @@ section {
 
 .footer {
   width: 100vw;
-  background-color: #4a49c9;
-  color: #fff;
+  background-color: #f0f0f0;
+  color: #242456;
   height: auto;
   display: flex;
   flex-direction: column;
