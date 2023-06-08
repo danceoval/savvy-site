@@ -408,8 +408,8 @@ section {
 
 .footer {
   width: 100vw;
-  background-color: #f0f0f0;
-  color: #242456;
+  background-color: #4a49c9;
+  color: #fff;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -648,12 +648,31 @@ table th {
   padding: 10px;
 }
 
+
+@media screen and (max-width: 600px) {
+  #special {
+    flex-direction: column;
+  }
+
+  #special-head {
+    width: 90%;
+    margin: auto;
+  }
+
+
+  #special ul {
+    width: 90%;
+    margin: auto;
+  }
+
+}
+
 /* Team */
 
 .bio {
   display: flex;
   flex-direction: row;
-  background-color: #f0f0f0;
+  background-color: #4a49c9;
   padding: 3rem 0 1.5rem 0;
 
 }
@@ -677,14 +696,14 @@ table th {
 
 .img-left h3{
   margin-bottom: 0;
-  color: #242456;
+  color: #f0f0f0;
   font-size: 2rem;
   margin-left: 1.5rem;
 }
 
 .img-left h4{
   margin: 0 10px;
-  color: #4a49c9;
+  color: #d8d8d8;
   font-size: 1.75rem;
   margin-left: 1.5rem;
 }
@@ -695,7 +714,7 @@ table th {
 }
 
 .txt-right p {
-  color: #242456;
+  color: #d8d8d8;
   font-size: 1.125rem;
 }
 
@@ -726,13 +745,12 @@ table th {
   flex-direction: column;
   margin-right: 5rem;
   width: calc(50vw - 5rem);
-  padding-top: 5rem;
 
 }
 
 #contact-us input{
-  width: 22rem;
-  height: 2.25rem;
+  width: 25rem;
+  height: 4rem;
   margin-bottom: .75rem;
 }
 
@@ -778,13 +796,18 @@ table th {
   width: 20rem;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 800px) {
   .bio{
     flex-direction: column
   }
 
   #contact {
     flex-direction: column;
+  }
+
+  #bv-stats h2{
+    font-size: 2.25rem;
   }
 
   .img-left {
