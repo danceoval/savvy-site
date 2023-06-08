@@ -156,7 +156,6 @@ section {
   padding-left: 7em;
   display: flex;
   flex-direction: row;
-  height: 60vh;
 }
 
 
@@ -224,7 +223,7 @@ section {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #main {
     flex-direction: column;
     height: auto;
@@ -234,13 +233,17 @@ section {
     display: none;
   }
 
+  #main-text {
+    margin-bottom: 5rem;
+  }
+
 
 }
 
 
 
 .banner {
-  background-color: #4a49c9;
+  background-color: #242456;
   display: flex;
   flex-direction: column;
 }
@@ -458,6 +461,10 @@ section {
   font-size: 3.25rem;
 }
 
+.outline-navy {
+  border: 2px solid #242456;
+}
+
 
 
 
@@ -466,6 +473,12 @@ section {
   margin-bottom: 1rem;
 }
 
+
+@media screen and (max-width: 600px){
+  .stats-container {
+    flex-direction: column;
+  }
+}
 
 
 /* Programs */
@@ -641,9 +654,11 @@ table th {
   display: flex;
   flex-direction: row;
   background-color: #f0f0f0;
-  padding: 5rem 0;
+  padding: 3rem 0 1.5rem 0;
 
 }
+
+
 
 .img-left {
   display: flex;
@@ -716,8 +731,8 @@ table th {
 }
 
 #contact-us input{
-  width: 20rem;
-  height: 1.5rem;
+  width: 22rem;
+  height: 2.25rem;
   margin-bottom: .75rem;
 }
 
@@ -750,6 +765,10 @@ table th {
 .highlight{
   font-weight: bolder;
   color: #4a49c9;
+}
+
+.white {
+  color: #fff;
 }
 
 .privacy-policy{
