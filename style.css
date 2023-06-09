@@ -227,15 +227,30 @@ section {
   #main {
     flex-direction: column;
     height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 0.75rem;
+
+  }
+
+  #main h1 {
+    margin: auto;
+    padding-top: 5rem;
+    font-size: 4rem;
+  }
+
+  #main p {
+    width: 80%;
+  }
+
+  #main h1 br{
+    display: none
   }
 
   #main-photo{
     display: none;
   }
 
-  #main-text {
-    margin-bottom: 5rem;
-  }
 
 
 }
@@ -254,6 +269,7 @@ section {
   font-size: .925rem;
   font-weight: normal;
   text-transform: uppercase;
+  margin-bottom: 0rem;
 }
 
 #logo-container {
@@ -324,11 +340,13 @@ section {
 
 #empower #empower-text{
     flex: 0 0 50vw;
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     display: flex;
     flex-direction: column;
     color: #242456;
     margin: auto;
+    margin-bottom: 1rem;
 }
 
 #empower #empower-text h2{
@@ -346,6 +364,16 @@ section {
   #empower {
     flex-direction: column;
   }
+
+  #empower-text{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  #empower-text h2 {
+    margin-top: 0;
+  }
+
   #logo-container img{
     width: 100%;
   }
@@ -365,10 +393,13 @@ section {
 
 #skills #skills-text {
   flex: 0 0 50vw;
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
   margin: auto;
   display: flex;
   flex-direction: column;
+  margin-bottom: 0;
 }
 
 #skills #skills-text h2{
@@ -397,6 +428,19 @@ section {
 @media screen and (max-width: 600px) {
   #skills {
     flex-direction: column;
+  }
+
+  #skills br {
+    display: none;
+  }
+
+  #skills-text{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  #skills-text h2 {
+    margin-top: 0;
   }
 
   #skills br {
@@ -487,7 +531,7 @@ section {
   background-color: #F0f0f0;
   display: flex;
   flex-direction: row;
-  padding: 5rem 0;
+  padding-top: 1.5rem;
 }
 
 #programs-main-text{
