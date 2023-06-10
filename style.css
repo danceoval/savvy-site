@@ -583,110 +583,87 @@ section {
 
 #programs-detail {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #4a49c9;
   padding-bottom: 1.5rem;
-
-}
-
-table {
-  border: 1px solid #fff;
-  border-collapse: collapse;
-  padding: 0;
-  width: 85vw;
-  margin: auto;
-  table-layout: fixed;
   color: #fff;
 }
 
-table caption {
-  font-size: 1.5em;
-  margin: .5em 0 .75em;
+#program-detail-head{
+  font-size: 2.8rem;
+  margin: auto;
+  padding-top: 2rem;
 }
 
-table tr {
-  border: 1px solid #fff;
-  padding: .35em;
+.card-container {
+  display: flex;
+  flex-direction: row;
 }
 
-table th,
-table td {
-  padding: .625em;
+.card {
+  flex-direction: column;
+  width: 32rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  color: #242456;
+  height: 40rem;
+  margin: 2rem auto;
+}
+
+.card-head {
   text-align: center;
 }
 
-table th {
-  font-size: .85em;
-  letter-spacing: .1em;
-  text-transform: uppercase;
+.info-pair{
+  padding: 0.5rem 2rem;
+  margin-bottom: 0;
 }
 
-@media screen and (max-width: 600px) {
-  table {
-    border: 0;
-  }
-
-  table caption {
-    font-size: 1.3em;
-  }
-  
-  table thead {
-    border: none;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
-  
-  table tr {
-    border-bottom: 3px solid #fff
-    display: block;
-    margin-bottom: .625em;
-  }
-  
-  table td {
-    border-bottom: 1px solid #fff;
-    display: block;
-    font-size: .8em;
-    text-align: right;
-  }
-  
-  table td::before {
-    /*
-    * aria-label has no advantage, it won't be read inside a table
-    content: attr(aria-label);
-    */
-    content: attr(data-label);
-    float: left;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  table td:last-child {
-    border-bottom: 0;
-  }
+.info-pair h4{
+  margin-bottom: 0;
 }
 
 .inquire-btn{
   all: unset;
   color: #4a49c9;
   background-color: #fff;
-  margin: auto;
-  margin-bottom: 1em;
   border-radius: 0.5rem;
-  font-size: .875rem;
+  font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   padding: 0.25rem;
+  width: 20rem;
+  height: 4rem;
+  margin-top: 2rem;
+  margin-left: calc(50% - 10rem);
 }
 
 .inquire-btn:hover{
   background-color: #d3d3d3;
 }
+
+@media screen and (max-width: 800px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 80vw;
+    margin: auto;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .inquire-btn {
+    margin-bottom: 2rem;s
+  }
+    
+}
+
+
 
 #special {
   display: flex;
