@@ -658,7 +658,9 @@ section {
   }
 
   .inquire-btn {
-    margin-bottom: 2rem;s
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
   }
     
 }
@@ -897,6 +899,13 @@ section {
 
   #contact-btn-form{
     margin: auto;
+  }
+
+  #contact-us input{
+    width: 80%;
+    height: 3rem;
+    margin: auto;
+    margin-bottom: .75rem;
   }
 
 }
