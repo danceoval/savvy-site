@@ -16,9 +16,23 @@ app.use((err, req, res, next) => {
   res.status(500).send('Something broke!');
 });
 
+app.get("/programs", (req, res) => {
+  res.sendFile(path.join(__dirname, '.', 'public/programs.html'))
+})
+
+app.get("/contact", (req, res) => {
+  res.sendFile(path.join(__dirname, '.', 'public/contact.html'))
+})
+
+app.get("/team", (req, res) => {
+  res.sendFile(path.join(__dirname, '.', 'public/team.html'))
+})
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/index.html'))
 })
+
+
 
 
 
