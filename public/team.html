@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="./style.css"></link>
+
 </head>
 
 <body>
@@ -46,6 +47,45 @@
                Contact us
           </div>
         </a>
+        <div id="hamburger" class="fa fa-bars">
+        </div>
+        <ul id="hamburger-content">
+           <li>
+             <a href="/programs">
+              <div class="nav-item">
+                Our programs
+              </div>
+            </a>
+           </li>
+           <li>
+             <a href="/programs#special">
+              <div class="nav-item">
+                Our approach
+              </div>
+            </a>
+          </li>
+          <li>
+           <a href="/team">
+            <div class="nav-item">
+              Our team
+            </div>
+          </a>
+         </li>
+         <li>
+           <a href="/contact">
+            <div class="nav-item">
+              Contact us
+            </div>
+          </a>
+         </li>
+         <li>
+           <a href="/">
+            <div class="nav-item">
+              Home
+            </div>
+          </a>
+         </li>
+        </ul>
 
     </nav>
   </header>
@@ -92,6 +132,14 @@
       <button class="contact">Talk to us</button>
     </a>
   </section>
+  <script>
+    let hamburger = document.getElementById('hamburger')
+    let hamburgerContent = document.getElementById('hamburger-content')
+    hamburger.addEventListener('click', (e) => {
+      e.preventDefault()
+      hamburgerContent.classList.toggle('active')
+    })
+  </script>
 
 </body>
 

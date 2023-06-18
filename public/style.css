@@ -110,9 +110,56 @@ img {
   background-color: #d3d3d3;
 }
 
+#hamburger {
+  display: none;
+}
+
+
+#hamburger-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100vw;
+  z-index: 1;
+}
+
 @media screen and (max-width: 600px) {
   #links {
     display: none;
+  }
+
+  #nav-contact {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    color: #4a49c9;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+  }
+
+  #hamburger-content.active{
+    display: block;
+    position: fixed;
+    background-color: #f0f0f0;
+    z-index: 1;
+    opacity: 0.75;
+    left: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 0.975rem;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  #hamburger-content.active .nav-item {
+    background-color: #fff;
+  }
+   #hamburger-content.active .nav-item:hover {
+    background-color: #d3d3d3;
   }
 }
 
