@@ -892,6 +892,7 @@ section {
   width: 32rem;
   height: 4.25rem;
   margin-bottom: .75rem;
+  font-size:1.25rem;
 }
 
 
@@ -977,7 +978,7 @@ section {
   .form-right {
     width: 100%;
     margin: auto;
-    padding: 1.125rem;
+    padding: 1.25rem;
   }
 
   form {
@@ -985,16 +986,11 @@ section {
     margin: auto;
   }
 
+
+
   #contact-btn-form{
     margin: auto;
   }
 
-  #contact-us input{
-    width: 80%;
-    height: 3rem;
-    margin: auto;
-    margin-bottom: .75rem;
-  }
 
-}
 
