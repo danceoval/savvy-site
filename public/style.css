@@ -654,7 +654,7 @@ section {
   border-radius: 15px;
   background-color: #f0f0f0;
   color: #242456;
-  height: 40rem;
+  min-height: 40rem;
   margin: 2rem auto;
 }
 
@@ -685,6 +685,7 @@ section {
   height: 4rem;
   margin-top: 2rem;
   margin-left: calc(50% - 10rem);
+  margin-bottom: 1rem;
 }
 
 .inquire-btn:hover{
