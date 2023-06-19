@@ -216,7 +216,7 @@ section {
 
 #main h1{
   color: #242456;
-  font-size: 4rem;
+  font-size: 3.25rem;
   margin-bottom: 0;
 }
 
@@ -342,6 +342,20 @@ section {
   margin: auto;
 }
 
+.testimonial-main {
+  width: 60%;
+  margin: auto;
+  color: #fff;
+}
+
+.testimonial-quote{
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 900;
+}
+
 @media screen and (max-width: 600px) {
   #logo-container img{
     width: 100%;
@@ -387,15 +401,14 @@ section {
 #empower-img{
     margin: auto;
     width: 35rem;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 
 
 #empower-text{
     flex: 0 0 50vw;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     color: #242456;
@@ -477,9 +490,11 @@ section {
 
 
 #skills #skills-img{
-  margin: auto;
+  padding: 2rem 0;
+}
+
+#skills-img img {
   width: 35rem;
-  padding: 2rem;
 }
 
 
