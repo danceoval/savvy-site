@@ -391,6 +391,24 @@ section {
   color: #4a49c9;
 }
 
+.banner-purple {
+  background-color: #4a49c9;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+
+.banner-purple h2{
+  text-align: center;
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: normal;
+}
+
+.banner-white p {
+  color: #fff;
+}
 
 
 #empower {
@@ -587,6 +605,7 @@ section {
   padding: 1rem;
   display: inline-block;
   margin: auto;
+  margin-bottom: 1rem;
 }
 
 .stat-no {
@@ -784,7 +803,6 @@ section {
 .bio {
   display: flex;
   flex-direction: row;
-  background-color: #4a49c9;
   padding: 3rem 0 1.5rem 0;
 
 }
@@ -803,19 +821,17 @@ section {
   border-radius: 15%;
   background-color: #fff;
   padding: 10px;
-  border: 1px solid #4a49c9;
+  border: 1px solid #d8d8d8;
 }
 
 .img-left h3{
   margin-bottom: 0;
-  color: #f0f0f0;
   font-size: 2rem;
   margin-left: 1.5rem;
 }
 
 .img-left h4{
   margin: 0 10px;
-  color: #d8d8d8;
   font-size: 1.75rem;
   margin-left: 1.5rem;
 }
@@ -826,8 +842,17 @@ section {
 }
 
 .txt-right p {
-  color: #d8d8d8;
   font-size: 1.125rem;
+}
+
+#dan {
+  background-color: #4a49c9;
+  color: #d8d8d8;
+}
+
+#kevin {
+  background-color: #d8d8d8;
+  color: #242456;
 }
 
 
@@ -857,15 +882,15 @@ section {
   flex-direction: column;
   margin-right: 5rem;
   width: calc(50vw - 5rem);
-  font-size: 1.225rem;
+  font-size: 1.5rem;
 
 }
 
 
 
 #contact-us input{
-  width: 25rem;
-  height: 4rem;
+  width: 32rem;
+  height: 4.25rem;
   margin-bottom: .75rem;
 }
 
