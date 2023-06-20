@@ -106,6 +106,35 @@ img {
   top: 5px;
 }
 
+#footer-links {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+}
+
+#logo-footer{
+    flex-grow: 1;
+    font-size: 1.5rem;
+    color: #242456;
+    margin-top: 0.5rem;
+    margin-left: 0.825rem;
+    float: right;
+}
+
+.nav-text {
+  color: #939363;
+  margin: 0.5rem 2rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#footer-links .nav-item {
+  color: #939363;
+  margin: 0.5rem 2rem;
+}
+
 #nav-contact:hover {
   background-color: #d3d3d3;
 }
@@ -942,6 +971,16 @@ section {
   margin-bottom: 1rem;
   display: inline-block;
   width: 20rem;
+}
+
+#privacy-policy-container {
+  background-color: #f0f0f0;
+  color: #242456;
+}
+
+#legal-container {
+  width: 80vw;
+  margin: 5rem auto;
 }
 
 

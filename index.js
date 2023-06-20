@@ -28,6 +28,10 @@ app.get("/team", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/team.html'))
 })
 
+app.get("/legal-stuff", (req, res) => {
+  res.sendFile(path.join(__dirname, '.', 'public/privacy.html'))
+})
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/index.html'))
 })
