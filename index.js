@@ -32,6 +32,23 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/index.html'))
 })
 
+app.post("/hello", (req, res) => {
+  const {
+  	company,
+  	fname,
+  	lname,
+  	email,
+  	title
+  } = req.body;
+
+  console.log(`${fname} ${lname}, a ${title} at ${company} wants to talk to Savvy. Email: ${email}`)
+  res.sendFile(path.join(__dirname, '.', 'public/index.html'))
+})
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, '.', 'public/index.html'))
+})
+
 
 
 
