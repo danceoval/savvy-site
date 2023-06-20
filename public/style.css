@@ -350,6 +350,12 @@ section {
 
 .testimonial-quote{
   font-style: italic;
+  text-align: right;
+}
+
+.testimonial-person {
+  font-style: italic;
+  text-align: right;
 }
 
 .bold {
@@ -694,6 +700,7 @@ section {
 
 .card-head {
   text-align: center;
+  font-size: 2.5rem;
 }
 
 .info-pair{
