@@ -269,9 +269,9 @@ section {
 
 #main{
   background-color: #F0f0f0;
-  padding-left: 7em;
   display: flex;
   flex-direction: row;
+  padding: 1rem 2rem;
 }
 
 
@@ -329,7 +329,8 @@ section {
 
 #main-photo {
     flex: 0 0 50vw;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
     width: 500px;
     margin: auto;
   }
@@ -492,21 +493,20 @@ section {
 }
 
 #empower-img{
-    margin: auto;
+    margin-left: 2rem;
     width: 35rem;
-    padding: 2rem 0;
+    padding: 2rem;
 }
 
 
 
 #empower-text{
     flex: 0 0 50vw;
-    padding: 2rem;
+    padding: 0 2rem;
     display: flex;
     flex-direction: column;
     color: #242456;
-    margin: auto;
-    margin-bottom: 1rem;
+    margin: 0 auto;
 }
 
 #empower-text h2{
@@ -528,12 +528,16 @@ section {
   #empower-text{
     padding-bottom: 0;
     padding-top: 0;
+    margin-bottom: 1.5rem;
   }
 
   #empower-text h2 {
     margin-top: 0;
     font-size: 2.5rem;
     margin-bottom: 0;
+  }
+  #empower-img {
+    margin-left: 0;
   }
 
   #empower-img img{
@@ -558,16 +562,12 @@ section {
   background-color: #f0f0f0;
 }
 
-#skills #skills-text {
-/*  flex: 0 0 50vw;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-/*  margin: auto;*/*/
-  padding-top: 1rem;
+#skills-text {
+  padding: 1rem 2rem; 
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
+  margin-left: 2rem;
 }
 
 #skills #skills-text h2{
@@ -582,16 +582,16 @@ section {
 }
 
 
-#skills #skills-img{
-  padding: 2rem 0;
+#skills-img{
+  padding: 2rem;
+  width: 35rem;
+  margin-left: 2rem;
 }
 
-#skills-img img {
-  width: 35rem;
-}
 
 
 @media screen and (max-width: 600px) {
+
   #skills {
     flex-direction: column-reverse;
     padding-bottom: 2rem;
@@ -605,6 +605,7 @@ section {
     padding-bottom: 0;
     padding-top: 0;
     padding-left: 2rem;
+    margin-left: 0;
   }
 
   #skills-text h2 {
@@ -617,6 +618,9 @@ section {
     display: none;
   }
 
+  #skills-img {
+    padding-left: 0;
+  }
 
   #skills-img img{
     width: 80vw;
