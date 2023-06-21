@@ -781,6 +781,10 @@ section {
   margin-bottom: 0;
 }
 
+.info-pair li {
+  padding-bottom: 0.5rem;
+}
+
 .inquire-btn{
   all: unset;
   color: #4a49c9;
@@ -870,6 +874,10 @@ section {
   #special ul {
     width: 90%;
     margin: auto;
+  }
+
+  .card-container {
+    padding-top: 3rem;
   }
 
 }
