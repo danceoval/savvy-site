@@ -24,6 +24,10 @@ app.get("/contact", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/contact.html'))
 })
 
+app.get("/sitemap", (req, res) => {
+  res.sendFile(path.join(__dirname, '.', 'sitemap.xml'))
+})
+
 app.get("/team", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/team.html'))
 })
