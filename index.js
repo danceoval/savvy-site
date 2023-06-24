@@ -8,7 +8,13 @@ const upload = multer();
 const PORT = process.env.PORT || 8080;
 const app = express();
 
-const pw = process.env.pw || require('./secrets.js').pw 
+let pw;
+
+if (process.env.PORT != '8080') {
+  pw = process.env.pw 
+} else {
+  pw = require('./secrets.js').pw 
+}
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
