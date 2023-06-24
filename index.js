@@ -1,14 +1,18 @@
 const path = require('path')
 const express = require('express');
 const nodemailer = require("nodemailer");
+const bodyParser = require('body-parser');
+const multer = require('multer');
+const upload = multer();
 
 const PORT = process.env.PORT || 8080;
 const app = express();
 
-const {pw} = require('./secrets.js') 
+const pw = process.env.pw || require('./secrets.js').pw 
 
-app.use(express.json());
-app.use(express.urlencoded());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(upload.array()); 
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -62,7 +66,6 @@ app.post("/hello", (req, res, next) => {
   	title
   } = req.body;
 
-  console.log("rrr", req.body)
 
   const mail = {
     from: `daniel.sohval@gmail.com`, 
