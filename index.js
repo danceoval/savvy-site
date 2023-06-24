@@ -1,15 +1,28 @@
 const path = require('path')
 const express = require('express');
+const nodemailer = require("nodemailer");
 
 const PORT = process.env.PORT || 8080;
 const app = express();
 
+const {pw} = require('./secrets.js') 
+
 app.use(express.json());
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  secure: true,
+  auth: {
+    // TODO: replace `user` and `pass` values from <https://forwardemail.net>
+    user: 'daniel.sohval@gmail.com',
+    pass: pw
+  }
+});
 
+console.log("pp", pw)
 // Error Handling
 app.use((err, req, res, next) => {
   console.error(err.stack);
@@ -40,7 +53,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/index.html'))
 })
 
-app.post("/hello", (req, res) => {
+app.post("/hello", (req, res, next) => {
   const {
   	company,
   	fname,
@@ -49,8 +62,24 @@ app.post("/hello", (req, res) => {
   	title
   } = req.body;
 
-  console.log(`${fname} ${lname}, a ${title} at ${company} wants to talk to Savvy. Email: ${email}`)
-  res.sendFile(path.join(__dirname, '.', 'public/index.html'))
+  console.log("rrr", req.body)
+
+  const mail = {
+    from: `daniel.sohval@gmail.com`, 
+    to: 'daniel.sohval@gmail.com',
+    subject: `Savvy request from ${company}`,
+    text: `${fname} ${lname}, a ${title} at ${company} is interested in Savvy. Their email is ${email}`
+  };
+
+  transporter.sendMail(mail, function(error, info){
+    if (error) {
+      next(error);
+    } else {
+      console.log('Email sent');
+      res.sendFile(path.join(__dirname, '.', 'public/index.html'))
+    }
+  });
+
 })
 
 app.get("*", (req, res) => {
