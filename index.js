@@ -69,7 +69,7 @@ app.post("/hello", (req, res, next) => {
 
   const mail = {
     from: `daniel.sohval@gmail.com`, 
-    to: 'daniel.sohval@gmail.com',
+    to: 'daniel.sohval@gmail.com, kfauzie@stanford.edu',
     subject: `Savvy request from ${company}`,
     text: `${fname} ${lname}, a ${title} at ${company} is interested in Savvy. Their email is ${email}`
   };
