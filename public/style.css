@@ -1088,6 +1088,13 @@ section {
     margin: auto;
   }
 
+  #contact-us input{
+    width: 90%;
+    height: 4.25rem;
+    margin: .5rem auto;
+    font-size:1.25rem;
+  }
+
 
 
   #contact-btn-form{
