@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://besavvy.ai/sitemap.xml

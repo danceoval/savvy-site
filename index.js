@@ -51,6 +51,10 @@ app.get("/sitemap", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'sitemap.xml'))
 })
 
+app.get("/robots", (req, res) => {
+  res.sendFile(path.join(__dirname, '.', 'robots.txt'))
+})
+
 app.get("/team", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/team.html'))
 })
