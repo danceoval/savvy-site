@@ -8,13 +8,7 @@ const upload = multer();
 const PORT = process.env.PORT || 8080;
 const app = express();
 
-let pw;
-
-if (process.env.PORT != '8080') {
-  pw = process.env.pw 
-} else {
-  pw = require('./secrets.js').pw 
-}
+const {pw} = process.env.NODE_ENV == 'prod' ? process.env : require('./secrets.js');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -32,7 +26,6 @@ const transporter = nodemailer.createTransport({
   }
 });
 
-console.log("pp", pw)
 // Error Handling
 app.use((err, req, res, next) => {
   console.error(err.stack);
@@ -73,15 +66,16 @@ app.post("/hello", (req, res, next) => {
   	fname,
   	lname,
   	email,
-  	title
+  	title,
+    phone
   } = req.body;
 
 
   const mail = {
     from: `daniel.sohval@gmail.com`, 
-    to: 'daniel.sohval@gmail.com, kfauzie@stanford.edu',
+    to: 'daniel.sohval@gmail.com, kevin.a.fauzie@gmail.com',
     subject: `Savvy request from ${company}`,
-    text: `${fname} ${lname}, a ${title} at ${company} is interested in Savvy. Their email is ${email}`
+    text: `${fname} ${lname}, a ${title} at ${company} is interested in Savvy. Their email is ${email} and their phone is ${phone}`
   };
 
   transporter.sendMail(mail, function(error, info){
