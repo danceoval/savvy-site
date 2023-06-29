@@ -44,6 +44,11 @@ app.get("/sitemap", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'sitemap.xml'))
 })
 
+
+app.get("/signup", (req, res) => {
+  res.redirect('https://y9ih099o1l9.typeform.com/to/S0XMT6eF')
+})
+
 app.get("/robots.txt", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'robots.txt'))
 })
