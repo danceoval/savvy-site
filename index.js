@@ -46,7 +46,7 @@ app.get("/sitemap", (req, res) => {
 
 
 app.get("/signup", (req, res) => {
-  res.redirect('https://y9ih099o1l9.typeform.com/to/S0XMT6eF')
+  res.sendFile(path.join(__dirname, '.', 'sign-up.html'))
 })
 
 app.get("/robots.txt", (req, res) => {
