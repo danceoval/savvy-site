@@ -988,6 +988,14 @@ section {
 }
 
 
+#contact-us #interest{
+  width: 32rem;
+  height: 4.25rem;
+  margin-bottom: .75rem;
+  font-size:1.25rem;
+}
+
+
 #logo-contact {
   width: 5rem;
 }

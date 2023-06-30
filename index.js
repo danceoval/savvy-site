@@ -45,9 +45,9 @@ app.get("/sitemap", (req, res) => {
 })
 
 
-app.get("/signup", (req, res) => {
-  res.sendFile(path.join(__dirname, '.', 'public/sign-up.html'))
-})
+// app.get("/signup", (req, res) => {
+//   res.sendFile(path.join(__dirname, '.', 'public/sign-up.html'))
+// })
 
 app.get("/robots.txt", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'robots.txt'))
@@ -72,7 +72,8 @@ app.post("/hello", (req, res, next) => {
   	lname,
   	email,
   	title,
-    phone
+    phone,
+    interest
   } = req.body;
 
 
@@ -80,7 +81,9 @@ app.post("/hello", (req, res, next) => {
     from: `daniel.sohval@gmail.com`, 
     to: 'daniel.sohval@gmail.com, kevin.a.fauzie@gmail.com',
     subject: `Savvy request from ${company}`,
-    text: `${fname} ${lname}, a ${title} at ${company} is interested in Savvy. Their email is ${email} and their phone is ${phone}`
+    text: `${fname} ${lname}, a ${title} at ${company} is interested in Savvy. 
+      Their email is ${email} and their phone is ${phone} 
+      Their primary interest is ${interest}`
   };
 
   transporter.sendMail(mail, function(error, info){
