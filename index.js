@@ -10,7 +10,7 @@ const app = express();
 
 let pw = process.env.pw 
 
-pw = pw || require('./secrets.js').pw
+//pw = pw || require('./secrets.js').pw
 
 
 app.use(bodyParser.json());
