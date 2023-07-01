@@ -1098,16 +1098,29 @@ section {
   }
 
   #contact-us input{
-    width: 90%;
+    width: 86%;
     height: 4.25rem;
     margin: .5rem auto;
-    font-size:1.25rem;
+    font-size:1rem;
+  }
+
+  #contact-us #interest{
+    width: 86%;
+    height: 4.25rem;
+    margin: .5rem auto;
+    font-size:1rem;
   }
 
 
 
   #contact-btn-form{
+    width: 86%;
     margin: auto;
+  }
+
+  .privacy-policy{
+    width: 86%
+    margin: 1rem auto;
   }
 }
 
