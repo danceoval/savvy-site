@@ -10,10 +10,12 @@ body {
 
 p {
   line-height: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
   text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1,
@@ -49,6 +51,7 @@ img {
   font-size: 2.25rem;
   color: #242456;
   margin-top: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 #nav #logo #logo-dot {
@@ -168,6 +171,13 @@ img {
   z-index: 1;
 }
 
+@media screen and (max-width: 1050px) {
+ #links {
+    margin-left: 1.5rem;
+  }
+
+}
+
 @media screen and (max-width: 850px) {
   #links {
     display: none;
@@ -275,6 +285,7 @@ section {
   display: flex;
   flex-direction: row;
   padding: 1rem 5rem;
+  padding-top: 5rem;
   width: 80vw;
   margin: auto;
 }
@@ -347,21 +358,21 @@ section {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   #main-container {
     flex-direction: column;
     height: auto;
-    width: 100%;
+    width: 80vw;
     margin: auto;
-    padding: 0.75rem;
+    padding: 1rem 0;
 
   }
 
   #main-container h1 {
     margin: auto;
     padding-top: 5rem;
-    font-size: 3.5rem;
-    text-align: center;s
+    font-size: 2.75rem;
+    text-align: center;
   }
 
   #main-container p {
@@ -380,8 +391,8 @@ section {
   }
 
 
-  #main-btn-container {
-    margin: auto;
+  #main-text a {
+    text-align: center;
   }
 
 
