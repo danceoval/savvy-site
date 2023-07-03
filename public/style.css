@@ -614,9 +614,8 @@ section {
   }
 
   #skills-text{
-    padding-bottom: 0;
-    padding-top: 0;
-    padding-left: 2rem;
+    padding: 0;
+    padding-top: 1rem;
     margin-left: 0;
   }
 
