@@ -165,7 +165,7 @@ img {
   z-index: 1;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   #links {
     display: none;
   }
@@ -1056,7 +1056,6 @@ section {
   font-size: 0.75rem;
   margin-bottom: 1rem;
   display: inline-block;
-  width: 20rem;
 }
 
 #privacy-policy-container {
@@ -1070,7 +1069,7 @@ section {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .bio{
     flex-direction: column
   }
