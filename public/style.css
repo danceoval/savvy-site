@@ -523,6 +523,8 @@ section {
   #empower-text{
     padding-bottom: 0;
     padding-top: 0;
+    width: 80vw;
+    margin: auto;
     margin-bottom: 1.5rem;
   }
 
@@ -604,7 +606,7 @@ section {
     margin-left: 0;
   }
 
-  #skills-text h2 {
+  #skills #skills-text h2 {
     margin-top: 0;
     font-size: 2.5rem;
     margin-bottom: 0;
@@ -614,13 +616,11 @@ section {
     display: none;
   }
 
-  #skills-img {
-    padding-left: 0;
-  }
 
-  #skills-img img{
+  #skills-img{
     width: 80vw;
     margin: auto;
+    padding: 2rem 0;
   }
 
   #logo-container img{
@@ -704,6 +704,12 @@ section {
   .stats-container {
     flex-direction: column;
   }
+
+  #footer-text {
+    width: 80vw;
+    margin: auto;
+  }
+
 }
 
 
