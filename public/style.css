@@ -173,6 +173,11 @@ img {
     display: none;
   }
 
+
+  #nav{
+    padding-left: 0;
+  }
+
   #nav-contact {
     display: none;
   }
@@ -343,7 +348,7 @@ section {
 
 
 @media screen and (max-width: 800px) {
-  #main {
+  #main-container {
     flex-direction: column;
     height: auto;
     width: 100%;
@@ -352,21 +357,21 @@ section {
 
   }
 
-  #main h1 {
+  #main-container h1 {
     margin: auto;
     padding-top: 5rem;
     font-size: 3.5rem;
     text-align: center;s
   }
 
-  #main p {
+  #main-container p {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-bottom: 1.5rem;
   }
 
-  #main h1 br{
+  #main-container h1 br{
     display: none
   }
 
