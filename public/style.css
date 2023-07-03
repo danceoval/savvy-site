@@ -140,6 +140,7 @@ img {
 #footer-links-text{
   display: flex;
   flex-direction: row;
+  padding: 5px;
 }
 
 #logo-footer-container {
@@ -485,7 +486,7 @@ section {
 }
 
 #empower-img{
-    margin-left: 2rem;
+    margin-left: 3rem;
     width: 35rem;
     padding: 2rem;
 }
@@ -493,17 +494,19 @@ section {
 
 
 #empower-text{
-    flex: 0 0 50vw;
-    padding: 0 2rem;
-    display: flex;
-    flex-direction: column;
-    color: #242456;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: #242456;
+  margin-right: 5em;
+  margin-left: auto;
+  width: 500px;
 }
 
 #empower-text h2{
   font-size: 3.25rem;
   color: #242456;
+  margin-bottom: 0;
+  margin-top: 3.5rem;
 }
 
 
@@ -551,7 +554,7 @@ section {
 #skills {
   display: flex;
   flex-direction: row;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 #skills-text {
@@ -559,7 +562,7 @@ section {
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 #skills #skills-text h2{
@@ -577,7 +580,8 @@ section {
 #skills-img{
   padding: 2rem;
   width: 35rem;
-  margin-left: 2rem;
+  margin-left: auto;
+  margin-right: 3rem;
 }
 
 
