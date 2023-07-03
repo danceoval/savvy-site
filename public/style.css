@@ -165,7 +165,7 @@ img {
   z-index: 1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   #links {
     display: none;
   }
@@ -963,6 +963,17 @@ section {
   padding: 6.5rem 0;
   color: #242456;
   display: flex;
+  flex-direction: column;
+}
+
+#contact-header-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#contact-body-container {
+  display: flex;
   flex-direction: row;
 }
 
@@ -990,9 +1001,10 @@ section {
 
 #contact-us input{
   width: 32rem;
-  height: 4.25rem;
+  height: 3.75rem;
   margin-bottom: .75rem;
-  font-size:1.25rem;
+  font-size:1.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -1015,10 +1027,12 @@ section {
 
 #test-head{
   margin-bottom: 0;
+  font-size: 2.75rem;
 }
 
 #test-subhead{
   margin-top: 1rem;
+  font-size: 2rem;
 }
 
 .testimonial-person{
@@ -1079,6 +1093,10 @@ section {
     padding: 1.125rem;
   }
 
+  #contact-body-container {
+    flex-direction: column;
+  }
+
   .txt-left {
     width: 80vw;
     margin: auto;
@@ -1096,6 +1114,7 @@ section {
     margin: auto;
     padding: 1.125rem;
   }
+
 
   .form-right {
     width: 100%;

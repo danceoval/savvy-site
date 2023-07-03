@@ -90,42 +90,45 @@
   </header>
 
   <section id="contact" >
-    <div class="txt-left">
-      <img src="images/favicon.ico" id="logo-contact" />
+    <div id="contact-header-container">
       <h1 id="test-head">Seize the opportunity. Connect with us today</h1>
       <h3 id="test-subhead">Savvy AI can help you build the team of the future</h3>
-      <div class="checklist">
-        <p>✔️ Do more with less</p>
-        <p>✔️ Enhance team engagement</p>
-        <p>✔️ Grow competitive edges</p>
-      </div>
-      <div class="testimonial-contact">
-        <img src="images/vz-logo.png" alt="verizon logo" id="logo-vz-testimonial"/>
-        <p>"From the very first session, I felt a deep understanding of my role in a crafted learning experience that felt truly customized to my needs, interests, and personality. Beyond the immediate benefits to my team, my learning journey had a profound impact on my career and personal growth." </p>
-        <p class="testimonial-person">-Judith Liem, <span class="highlight">Software Engineer, Verizon</span></p>
-      </div>
     </div>
-    <div class="form-right">
-      <form action="/hello" method="POST" id="contact-us">
-         Company Name*<br><input type="text" name="company"> <br>
-         First Name*<br><input type="text" name="fname"> <br>
-         Last Name*<br><input type="text" name="lname"> <br>
-         Company Email*<br><input type="email" name="email"> <br>
-         Phone Number<br><input type="tel" name="phone"> <br>
-         Title<br><input type="text" name="title"> <br>
-         <label for="interest">What interests you about Savvy AI?</label>
+    <div id="contact-body-container">
+      <div class="txt-left">
+        <img src="images/favicon.ico" id="logo-contact" />
+        <div class="checklist">
+          <p>✔️ Do more with less</p>
+          <p>✔️ Enhance team engagement</p>
+          <p>✔️ Grow competitive edges</p>
+        </div>
+        <div class="testimonial-contact">
+          <img src="images/vz-logo.png" alt="verizon logo" id="logo-vz-testimonial"/>
+          <p>"From the very first session, I felt a deep understanding of my role in a crafted learning experience that felt truly customized to my needs, interests, and personality. Beyond the immediate benefits to my team, my learning journey had a profound impact on my career and personal growth." </p>
+          <p class="testimonial-person">-Judith Liem, <span class="highlight">Software Engineer, Verizon</span></p>
+        </div>
+      </div>
+      <div class="form-right">
+        <form action="/hello" method="POST" id="contact-us">
+           First Name*<br><input type="text" name="fname"> <br>
+           Last Name*<br><input type="text" name="lname"> <br>
+           Company Name*<br><input type="text" name="company"> <br>
+           Company Email*<br><input type="email" name="email"> <br>
+           Phone Number<br><input type="tel" name="phone"> <br>
+           Title<br><input type="text" name="title"> <br>
+           <label for="interest">What interests you about Savvy AI?</label>
 
-            <select name="interest" id="interest">
-              <option value=""></option>
-              <option value="getting started with AI">I'm interested in getting started with AI</option>
-              <option value="interested in using AI more at work">I'm interested in using AI more at work</option>
-              <option value="I'd like to train my team in AI">I'd like to train my team in AI</option>
-              <option value="other">Something else</option>
-            </select> 
-         <span class="privacy-policy">By submitting this form, you acknowledge that we will process your personal data in accordance with our <a href="legal-stuff" class="highlight">Privacy Policy</a></span>
-      </form>
-      <div class="btn-purple" id="contact-btn-form">
-        <button type="submit" form="contact-us" value="Submit">Submit</button> 
+              <select name="interest" id="interest">
+                <option value="">Please select one:</option>
+                <option value="getting started with AI">I'm interested in getting started with AI, or using it more at work</option>
+                <option value="I'd like to train my team in AI">I'd like to train my team in AI</option>
+                <option value="other">Something else</option>
+              </select> 
+           <span class="privacy-policy">By submitting this form, you acknowledge that we will process your personal data in accordance with our <a href="legal-stuff" class="highlight">Privacy Policy</a></span>
+        </form>
+        <div class="btn-purple" id="contact-btn-form">
+          <button type="submit" form="contact-us" value="Submit">Submit</button> 
+        </div>
       </div>
     </div>
   </section>
