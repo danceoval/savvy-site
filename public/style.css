@@ -60,6 +60,9 @@ img {
   display: flex;
   margin-top: 0;
   flex-direction: row;
+  width: 80vw;
+  margin: auto;
+  padding-left: 5rem
 }
 
 #links {
@@ -90,7 +93,7 @@ img {
   border-radius: 5px;
   background-color: #fff;
   box-shadow: #d3d3d3;
-  margin-right: 5rem;
+  margin-right: calc(10vw + 5rem);
   padding: 10px;
   position: absolute;
   right: 0;
@@ -179,7 +182,7 @@ img {
     color: #4a49c9;
     font-size: 1.5rem;
     position: absolute;
-    right: 3rem;
+    right: 5rem;
     top: 1.75rem;
   }
 
@@ -261,9 +264,14 @@ section {
 
 #main{
   background-color: #F0f0f0;
+}
+
+#main-container {
   display: flex;
   flex-direction: row;
   padding: 1rem 5rem;
+  width: 80vw;
+  margin: auto;
 }
 
 
@@ -480,9 +488,11 @@ section {
 }
 
 
-#empower {
+.section-container {
   display: flex;
   flex-direction: row;
+  width: 80vw;
+  margin: auto;
 }
 
 #empower-img{
@@ -516,7 +526,7 @@ section {
 }
 
 @media screen and (max-width: 800px) {
-  #empower {
+  .section-container {
     flex-direction: column;
   }
 
@@ -535,29 +545,28 @@ section {
   }
   #empower-img {
     margin-left: 0;
-  }
-
-  #empower-img img{
     width: 80vw;
     margin: auto;
+    padding: 2rem 0;
   }
+
 
   #logo-container img{
     width: 100%;
   }
 
-  #empower br {
+  #section-container br {
     display: none;
   }
 
 }
 
 
-#skills {
+/*#skills {
   display: flex;
   flex-direction: row;
   background-color: #fff;
-}
+}*/
 
 #skills-text {
   padding: 1rem 2rem; 
@@ -567,13 +576,13 @@ section {
   margin-left: 3rem;
 }
 
-#skills #skills-text h2{
+#skills-text h2{
   font-size: 3.25rem;
   color: #242456;
   margin-bottom: 0;
 }
 
-#skills #skills-text p{
+#skills-text p{
   font-size: 1.125rem;
   color: #242456;
 }
@@ -590,7 +599,7 @@ section {
 
 @media screen and (max-width: 800px) {
 
-  #skills {
+  #skills .section-container {
     flex-direction: column-reverse;
     padding-bottom: 2rem;
   }
