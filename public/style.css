@@ -46,7 +46,7 @@ img {
 
 #nav #logo {
   flex-grow: 1;
-  font-size: 1.5rem;
+  font-size: 2.25rem;
   color: #242456;
   margin-top: 0;
 }
@@ -179,8 +179,8 @@ img {
     color: #4a49c9;
     font-size: 1.5rem;
     position: absolute;
-    right: 10px;
-    top: 5px;
+    right: 3rem;
+    top: 1.75rem;
   }
 
   #hamburger-content.active{
@@ -515,7 +515,7 @@ section {
   color: #242456;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   #empower {
     flex-direction: column;
   }
@@ -588,7 +588,7 @@ section {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   #skills {
     flex-direction: column-reverse;
@@ -813,6 +813,13 @@ section {
 }
 
 @media screen and (max-width: 800px) {
+  #programs-main{
+    padding-top: 4rem;
+  }
+
+   #programs-main h1{
+    font-size: 2.5rem;
+  }
   .card-container {
     display: flex;
     flex-direction: column;
@@ -914,8 +921,6 @@ section {
   width: 20rem;
   border-radius: 15%;
   background-color: #fff;
-  padding: 10px;
-  border: 1px solid #d8d8d8;
 }
 
 .img-left h3{
@@ -941,12 +946,12 @@ section {
 
 #dan {
   background-color: #4a49c9;
-  color: #d8d8d8;
-  padding-top: 5rem;
+  color: #fff;
+  padding-top: 8rem;
 }
 
 #kevin {
-  background-color: #d8d8d8;
+  background-color: #fff;
   color: #242456;
 }
 
@@ -1062,22 +1067,26 @@ section {
 
   #bv-stats h2{
     font-size: 2.25rem;
+    width: 80vw;
+    margin: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
   }
 
   .img-left {
-    width: 90%;
+    width: 80vw;
     margin: auto;
     padding: 1.125rem;
   }
 
   .txt-left {
-    width: 100%;
+    width: 80vw;
     margin: auto;
     padding: 1.125rem;
   }
 
   .txt-right {
-    width: 100%;
+    width: 80vw;
     margin: auto;
     padding: 1.125rem;
   }
