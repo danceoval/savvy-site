@@ -50,7 +50,7 @@ img {
   flex-grow: 1;
   font-size: 2.25rem;
   color: #242456;
-  margin-top: 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -61,7 +61,6 @@ img {
 
 #nav nav {
   display: flex;
-  margin-top: 0;
   flex-direction: row;
   width: 80vw;
   margin: auto;
@@ -100,7 +99,7 @@ img {
   padding: 10px;
   position: absolute;
   right: 0;
-  top: 5px;
+  top: 1rem;
 }
 
 #footer-links {
