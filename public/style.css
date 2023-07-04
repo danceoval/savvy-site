@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 p {
@@ -848,6 +848,7 @@ section {
 
 .info-pair li {
   padding-bottom: 0.5rem;
+  font-size: 1.125rem;
 }
 
 .inquire-btn{
@@ -968,7 +969,7 @@ section {
 }
 
 #logos-team{
-  padding-top: 10rem;
+  padding-top: 10rem
 }
 
 
@@ -1107,7 +1108,6 @@ section {
 }
 
 .highlight{
-  font-weight: bolder;
   color: #4a49c9;
 }
 
