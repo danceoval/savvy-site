@@ -1034,12 +1034,18 @@ section {
 #contact-header-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  width: 80vw;
+  margin: auto;
+  padding-left: 5rem;
+
 }
 
 #contact-body-container {
   display: flex;
   flex-direction: row;
+  width: 80vw;
+  margin: auto;
+  margin-top: 2.5rem;
 }
 
 .checklist{
@@ -1120,6 +1126,12 @@ section {
   font-size: 0.75rem;
   margin-bottom: 1rem;
   display: inline-block;
+  width: 28rem;
+
+}
+
+.privacy-policy a {
+  font-size: 0.75rem;
 }
 
 #privacy-policy-container {
