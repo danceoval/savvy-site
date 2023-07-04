@@ -70,7 +70,8 @@ img {
 #links {
   display: flex;
   flex-direction: row;
-  margin-left: 5em;
+  margin-left: 2rem;
+  margin-top: 0.8rem;
 }
 
 .nav-item {
@@ -89,14 +90,18 @@ img {
   color: #202b47;
 }
 
+.nav-logo {
+  width: 7.5rem;
+}
+
 #nav-contact {
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: 0.875rem;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: #d3d3d3;
   margin-right: calc(10vw + 5rem);
-  padding: 10px;
+  padding: 1rem;
   position: absolute;
   right: 0;
   top: 1rem;
@@ -197,7 +202,7 @@ img {
     font-size: 1.5rem;
     position: absolute;
     right: 5rem;
-    top: 1.75rem;
+    top: 2.25rem;
   }
 
   #hamburger-content.active{
