@@ -112,6 +112,7 @@ img {
   display: flex;
   flex-direction: row;
   min-height: 5rem;
+  padding-left: calc(10vw + 5rem);
 }
 
 #logo-footer{
@@ -668,6 +669,11 @@ section {
   height: auto;
   display: flex;
   flex-direction: column;
+}
+
+
+.footer-logo {
+  width: 7.5rem;
 }
 
 .footer #footer-text h2 {
