@@ -50,18 +50,13 @@ img {
   width: 100vw;
 }
 
-#nav #logo {
-  flex-grow: 1;
-  font-size: 2.25rem;
-  color: #242456;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+
+
+.logo {
+  margin-right: 1rem;
 }
 
-#nav #logo #logo-dot {
-  color: #4a49c9;
-  font-size: 2rem
-}
+
 
 #nav nav {
   display: flex;
@@ -1007,7 +1002,7 @@ section {
 
 .img-left h4{
   margin: 0 10px;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-left: 1.5rem;
 }
 
