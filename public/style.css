@@ -187,7 +187,7 @@ img {
   }
 
 
-  #nav{
+  #nav nav{
     padding-left: 0;
   }
 
@@ -198,10 +198,10 @@ img {
   #hamburger {
     display: block;
     color: #4a49c9;
-    font-size: 1.5rem;
+    font-size: 2rem;
     position: absolute;
     right: 5rem;
-    top: 2.25rem;
+    top: 2rem;
   }
 
   #hamburger-content.active{
