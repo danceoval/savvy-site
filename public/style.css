@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -23,7 +23,7 @@ h2,
 h3,
 nav,
 button {
-  font-family: 'Source Sans Pro, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Responsive images */
@@ -304,6 +304,7 @@ section {
   color: #242456;
   font-size: 3.25rem;
   margin-bottom: 0;
+  font-weight: normal;
 }
 
 #main p{
