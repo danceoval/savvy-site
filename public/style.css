@@ -558,6 +558,12 @@ section {
   color: #242456;
 }
 
+@media screen and (max-width: 1500px){
+  #empower-text{
+    margin-right: 1rem;
+  }
+}
+
 @media screen and (max-width: 1150px) {
   .section-container {
     flex-direction: column;
@@ -629,6 +635,11 @@ section {
   margin-right: 3rem;
 }
 
+@media screen and (max-width: 1350px){
+  #skills-img{
+    margin-right: 1rem;
+  }
+}
 
 
 @media screen and (max-width: 1150px) {
@@ -687,6 +698,15 @@ section {
   height: auto;
   display: flex;
   flex-direction: column;
+}
+
+.footer-white {
+  background-color: #fff;
+  color: #242456;
+}
+
+#program-footer{
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -841,7 +861,7 @@ section {
 }
 
 .info-pair{
-  padding: 0 2rem;
+  padding: 0 4rem;
   margin-bottom: 0;
 }
 
@@ -986,7 +1006,7 @@ section {
 }
 
 #logos-team{
-  padding-top: 10rem
+  padding-top: 8rem
 }
 
 
