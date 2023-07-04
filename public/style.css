@@ -824,7 +824,7 @@ section {
 
 .card {
   flex-direction: column;
-  width: 32rem;
+  width: 40rem;
   border: 1px solid #d3d3d3;
   border-radius: 15px;
   background-color: #f0f0f0;
@@ -836,6 +836,13 @@ section {
 .card-head {
   text-align: center;
   font-size: 2.25rem;
+}
+
+.card-btn {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
 }
 
 .info-pair{
@@ -862,11 +869,9 @@ section {
   text-transform: uppercase;
   font-weight: bold;
   padding: 0.25rem;
-  width: 20rem;
-  height: 4rem;
-  margin-top: 2rem;
-  margin-left: calc(50% - 10rem);
-  margin-bottom: 1rem;
+  width: 12rem;
+  height: 3rem;
+  margin: 1.5rem;
 }
 
 .inquire-btn:hover{
@@ -957,6 +962,12 @@ section {
   .card-container {
     padding-top: 3rem;
   }
+
+  #programs-main-text{
+    padding-left: 0;
+  }
+
+  
 
 }
 
