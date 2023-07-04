@@ -21,12 +21,12 @@
 
   <header id="nav">
     <nav>
-      <div class="logo">
-        <a href="/">
-          <img src="./images/savvy-logo.svg" class="nav-logo" alt="savvy logo" />
-        </a>
-      </div>
       <div id="links">
+         <div class="logo">
+            <a href="/">
+              <img src="./images/savvy-logo.svg" class="nav-logo" alt="savvy logo" />
+            </a>
+          </div>
         <a href="/programs">
           <div class="nav-item">
             Our Program
@@ -42,40 +42,45 @@
             Our Team
           </div>
         </a>
-      </div>
-        <a href="/contact">
+         <a href="/contact">
           <div class="nav-item" id="nav-contact">
                Join Waitlist
           </div>
         </a>
+      </div>
+        <div class="logo" id="hidden">
+            <a href="/">
+              <img src="./images/savvy-logo.svg" class="nav-logo" alt="savvy logo" />
+            </a>
+          </div>
         <div id="hamburger" class="fa fa-bars">
         </div>
         <ul id="hamburger-content">
            <li>
              <a href="/programs">
               <div class="nav-item">
-                Our programs
+                Our Program
               </div>
             </a>
            </li>
            <li>
              <a href="/programs#approach">
               <div class="nav-item">
-                Our approach
+                Our Approach
               </div>
             </a>
           </li>
           <li>
            <a href="/team">
             <div class="nav-item">
-              Our team
+              Our Team
             </div>
           </a>
          </li>
          <li>
            <a href="/contact">
             <div class="nav-item">
-              Join our waitlist
+              Join Waitlist
             </div>
           </a>
          </li>
@@ -86,16 +91,17 @@
   
   <section id="main">
     <div class="section-container" id="main-container">
-      <div id="main-text">
+      <div class="txt-left">
         <h1>Empower your team, </br> Transform your business </h1>
         <p>Develop talent and accelerate AI adoption in your team at the same time</p>
-          <a href="/programs">
-            <button id="main-btn">Learn More</button>
-          </a>
-          &nbsp;&nbsp;
-          <a href="/contact">
-            <button class="contact" id="contact-main">Contact Us</button>
-          </a>
+          <div class="btn-container-main">
+            <a href="/programs">
+              <button id="main-btn">Learn More</button>
+            </a>
+            <a href="/contact">
+              <button class="contact" id="contact-main">Contact Us</button>
+            </a>
+          </div>
       </div>
       <div id="main-photo" class="img-right">
         <img src="./images/main.jpg" alt="Elevate with Savvy" />

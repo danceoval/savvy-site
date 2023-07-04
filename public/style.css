@@ -73,12 +73,11 @@ img {
 #links {
   display: flex;
   flex-direction: row;
-  margin-left: 2rem;
-  margin-top: 0.8rem;
+  width: 100%;
 }
 
 .nav-item {
-  margin: 0.8rem 1rem;
+  margin: 1.5rem 1rem;
   font-weight: bold;
   font-size: 1rem;
   color: #4a49c9;
@@ -103,11 +102,10 @@ img {
   border-radius: 5px;
   background-color: #fff;
   box-shadow: #d3d3d3;
-  margin-right: calc(10vw + 5rem);
+  margin-top: 0.5rem;
   padding: 1rem;
-  position: absolute;
-  right: 0;
-  top: 1rem;
+  font-weight: bold;
+  align-self: flex-end;
 }
 
 #footer-links {
@@ -178,7 +176,9 @@ img {
   width: 100vw;
   z-index: 1;
 }
-
+#hidden {
+  display: none;
+}
 @media screen and (max-width: 1050px) {
  #links {
     margin-left: 1.5rem;
@@ -189,6 +189,10 @@ img {
 @media screen and (max-width: 850px) {
   #links {
     display: none;
+  }
+
+  #hidden {
+    display: block;
   }
 
 
@@ -232,10 +236,10 @@ img {
 
   #footer-links{
     flex-direction: column;
+    padding-left: 5rem;
   }
-
-  #footer-links-text{
-    margin-left: 4rem;
+  .nav-text {
+    margin-left: 0;
   }
 
   #footer-links .nav-item {
@@ -292,10 +296,7 @@ section {
 #main-container {
   display: flex;
   flex-direction: row;
-  padding: 1rem 5rem;
   padding-top: 5rem;
-  width: 80vw;
-  margin: auto;
 }
 
 
@@ -353,7 +354,7 @@ section {
 
 
 #main-photo {
-   margin-top: 5rem;
+  margin-top: 1.5rem;
   width: 500px;
   margin-left: auto;
   margin-right: 0;
@@ -402,6 +403,15 @@ section {
   #main-text a {
     text-align: center;
   }
+  #main-btn {
+    margin-bottom: 0.5rem;
+  }
+
+  .btn-container-main {
+   margin: 0 calc(50% - 5rem);
+  }
+
+
 
 
 
