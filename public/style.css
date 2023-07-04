@@ -395,6 +395,7 @@ section {
   #main-text {
     width: 80vw;
     margin:auto;
+    padding: 0;
   }
 
 
@@ -478,7 +479,9 @@ section {
   display: flex;
   flex-direction: column;
 }
-
+.center {
+  text-align: center;
+}
 
 .banner-white {
   background-color: #fff;
