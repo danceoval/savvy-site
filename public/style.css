@@ -869,6 +869,16 @@ section {
   margin: 1.5rem;
 }
 
+#btn-use{
+  background-color: #4a49c9;
+  color: #fff;
+}
+
+#btn-use:hover{
+  background-color: #1816a6;
+  color: #fff;
+}
+
 .inquire-btn:hover{
   background-color: #d3d3d3;
 }
