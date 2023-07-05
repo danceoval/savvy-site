@@ -223,7 +223,7 @@ img {
     background-color: #fff;
     height: 3rem;
     padding-top: 0.75rem;
-    margin: 2rem auto;
+    margin: 0.5rem auto;
   }
    #hamburger-content.active .nav-item:hover {
     background-color: #d3d3d3;
