@@ -94,7 +94,7 @@ img {
 
 #nav-contact {
   font-weight: normal;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: #d3d3d3;
@@ -1074,7 +1074,6 @@ section {
   flex-direction: column;
   width: 80vw;
   margin: auto;
-  padding-left: 5rem;
 
 }
 
@@ -1137,6 +1136,7 @@ section {
 #test-head{
   margin-bottom: 0;
   font-size: 2.75rem;
+  text-align: center;
 }
 
 #test-subhead{
