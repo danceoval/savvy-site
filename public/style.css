@@ -216,10 +216,14 @@ img {
     font-size: 0.975rem;
     font-weight: bold;
     margin-top: 2rem;
+    padding-left: 0;
   }
 
   #hamburger-content.active .nav-item {
     background-color: #fff;
+    height: 3rem;
+    padding-top: 0.75rem;
+    margin: 2rem auto;
   }
    #hamburger-content.active .nav-item:hover {
     background-color: #d3d3d3;
@@ -400,12 +404,17 @@ section {
     text-align: center;
   }
   #main-btn {
-    margin-bottom: 0.5rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
   }
 
-  .btn-container-main {
-   margin: 0 calc(50% - 5rem);
+  #contact-main {
+    width: 100%;
   }
+
+/*  .btn-container-main {
+   margin: 0 auto;
+  }*/
 
 
 
