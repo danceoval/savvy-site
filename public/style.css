@@ -833,7 +833,6 @@ section {
   display: flex;
   flex-direction: column;
   background-color: #4a49c9;
-  padding-bottom: 1.5rem;
   color: #fff;
 }
 
@@ -841,6 +840,11 @@ section {
   font-size: 2.8rem;
   margin: auto;
   padding-top: 2rem;
+}
+
+.video-container {
+  margin: auto;
+  padding: 3rem 1.5rem;
 }
 
 .card-container {
@@ -938,6 +942,10 @@ section {
     width: 80%;
     margin: auto;
     margin-bottom: 2rem;
+  }
+
+  #demo-video {
+    width: 100%;
   }
 
 /*  #approach{
