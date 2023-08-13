@@ -39,6 +39,11 @@ app.get("/product", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/programs.html'))
 })
 
+app.get("/programs", (req, res) => {
+  res.sendFile(path.join(__dirname, '.', 'public/programs.html'))
+})
+
+
 app.get("/contact", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/contact.html'))
 })
