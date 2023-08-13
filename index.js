@@ -35,7 +35,7 @@ app.use((err, req, res, next) => {
   res.status(500).send('Something broke!');
 });
 
-app.get("/programs", (req, res) => {
+app.get("/product", (req, res) => {
   res.sendFile(path.join(__dirname, '.', 'public/programs.html'))
 })
 
