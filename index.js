@@ -36,11 +36,11 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/programs", (req, res) => {
-  res.sendFile(path.join(__dirname, '.', 'public/programs.html'))
+  res.sendFile(path.join(__dirname, '.', 'public/product.html'))
 })
 
-app.get("/programs", (req, res) => {
-  res.sendFile(path.join(__dirname, '.', 'public/programs.html'))
+app.get("/product", (req, res) => {
+  res.sendFile(path.join(__dirname, '.', 'public/product.html'))
 })
 
 
