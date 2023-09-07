@@ -310,6 +310,13 @@ section {
   font-weight: normal;
 }
 
+#main h2{
+  color: #242456;
+  font-size: 2.75rem;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
 #main p{
   color: #242456;
 }
@@ -844,6 +851,11 @@ section {
   padding: 3rem 1.5rem;
 }
 
+#video-demo{
+  aspect-ratio: 16 / 9;
+  width: 700px;
+}
+
 .card-container {
   display: flex;
   flex-direction: row;
@@ -941,9 +953,12 @@ section {
     margin-bottom: 2rem;
   }
 
-  #demo-video{
+
+  #video-demo{
+    aspect-ratio: 16 / 9;
     width: 100%;
   }
+
 
 /*  #approach{
     padding-top: 3rem;
@@ -1062,8 +1077,8 @@ section {
 }
 
 #dan {
-  background-color: #4a49c9;
-  color: #fff;
+  background-color: #f0f0f0;
+  color: #242456;
 }
 
 #kevin {
