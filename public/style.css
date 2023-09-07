@@ -412,12 +412,9 @@ section {
     width: 100%;
   }
 
-/*  .btn-container-main {
-   margin: 0 auto;
-  }*/
-
-
-
+  #team-btn {
+    width: 100%;
+  }
 
 
 }
