@@ -317,6 +317,13 @@ section {
   font-weight: normal;
 }
 
+#main h3{
+  color: #242456;
+  font-size: 2.25rem;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
 #main p{
   color: #242456;
 }
