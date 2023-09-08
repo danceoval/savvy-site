@@ -187,6 +187,10 @@ img {
   }
 
 
+  #nav {
+    padding: 0;
+  }
+
   #nav nav{
     padding-left: 0;
   }
@@ -433,6 +437,8 @@ section {
   }
 
 
+
+
 }
 
 
@@ -623,6 +629,10 @@ section {
     display: none;
   }
 
+  .center {
+    padding: 0 1rem;
+  }
+
 }
 
 
@@ -809,9 +819,14 @@ section {
   }
 
   #footer-text {
-    width: 80vw;
+/*    width: 80vw;*/
     text-align: center;
     margin-left: 0rem;
+  }
+
+  .contact {
+    width: 80vw;
+    margin: auto;
   }
 
 }
@@ -1259,6 +1274,11 @@ section {
     padding-left: 1rem;
   }
 
+  #contact-btn-form{
+    width: 100%;
+  }
+
+
   #contact-body-container {
     flex-direction: column;
   }
@@ -1310,8 +1330,12 @@ section {
 
 
   #contact-btn-form{
-    width: 86%;
+    width: 100%;
     margin: auto;
+  }
+
+  #contact-btn-form button{
+    width: 100%;
   }
 
   .privacy-policy{
