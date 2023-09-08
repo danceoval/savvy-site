@@ -850,8 +850,8 @@ section {
 #programs-detail {
   display: flex;
   flex-direction: column;
-  background-color: #4a49c9;
-  color: #fff;
+  background-color: #ffffff;
+  color: #242456;
 }
 
 #program-detail-head{
