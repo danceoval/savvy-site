@@ -562,7 +562,7 @@ section {
   display: flex;
   flex-direction: column;
   color: #242456;
-  margin-right: 5em;
+  margin-right: 4rem;
   margin-left: auto;
   width: 500px;
 }
@@ -634,6 +634,7 @@ section {
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
+  margin-top: 1rem;
   margin-left: 4rem;
 
   
