@@ -1203,6 +1203,7 @@ section {
 
 .privacy-policy{
   font-size: 0.75rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   display: inline-block;
   width: 28rem;
@@ -1228,6 +1229,7 @@ section {
   .bio{
     flex-direction: column
   }
+
 
   #contact {
     flex-direction: column;
