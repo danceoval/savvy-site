@@ -109,6 +109,7 @@ img {
   display: flex;
   flex-direction: row;
   min-height: 5rem;
+  padding-left: calc(10vw + 4rem);
 }
 
 #logo-footer{
@@ -179,7 +180,6 @@ img {
 @media screen and (max-width: 850px) {
   #links {
     display: none;
-    left: 3rem;
   }
 
   #hidden {
@@ -456,7 +456,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 10vw;
+  margin: .5rem 5vw;
 }
 
 #logo-container img{
@@ -1203,7 +1203,7 @@ section {
 
 .privacy-policy{
   font-size: 0.75rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   display: inline-block;
   width: 28rem;
@@ -1309,5 +1309,3 @@ section {
     margin: 1rem auto;
   }
 }
-
-
