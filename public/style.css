@@ -701,7 +701,7 @@ section {
   #skills-img{
     width: 80vw;
     margin: auto;
-    padding: 2rem 0;
+    padding: 0;
   }
 
   #logo-container img{
@@ -735,7 +735,6 @@ section {
 #program-footer{
   font-family: 'Lato', sans-serif;
 }
-
 
 .footer-logo {
   width: 7.5rem;
