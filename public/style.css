@@ -63,7 +63,7 @@ img {
   flex-direction: row;
   width: 80vw;
   margin: auto;
-  padding-left: 5rem
+  padding-left: 4rem
 }
 
 #links {
@@ -109,7 +109,7 @@ img {
   display: flex;
   flex-direction: row;
   min-height: 5rem;
-  padding-left: calc(10vw + 5rem);
+  padding-left: calc(10vw + 4rem);
 }
 
 #logo-footer{
@@ -231,7 +231,7 @@ img {
 
   #footer-links{
     flex-direction: column;
-    padding-left: 5rem;
+    padding-left: 4rem;
   }
   .nav-text {
     margin-left: 0;
@@ -827,7 +827,7 @@ section {
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding-left: 5rem;
+  padding-left: 4rem;
   padding-bottom: 1.5rem;
   display: block;
   width: 80vw;
