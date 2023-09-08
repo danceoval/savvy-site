@@ -807,7 +807,7 @@ section {
 
   #footer-text {
     width: 80vw;
-    margin: auto;
+    margin-left: 1rem;
   }
 
 }
