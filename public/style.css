@@ -1216,6 +1216,7 @@ section {
 }
 
 #privacy-policy-container {
+  margin-top: 4rem;
   background-color: #f0f0f0;
   color: #242456;
 }
