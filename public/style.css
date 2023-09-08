@@ -200,7 +200,7 @@ img {
     color: #4a49c9;
     font-size: 2rem;
     position: absolute;
-    right: 5rem;
+    right: 3rem;
     top: 2rem;
   }
 
@@ -808,7 +808,7 @@ section {
   #footer-text {
     width: 80vw;
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 0rem;
   }
 
 }
