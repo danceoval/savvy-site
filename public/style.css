@@ -109,7 +109,7 @@ img {
   display: flex;
   flex-direction: row;
   min-height: 5rem;
-  padding-left: calc(10vw + 4rem);
+  padding-left: calc(10vw + 2rem);
 }
 
 #logo-footer{
@@ -457,7 +457,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: .5rem 5vw;
+  margin: 5vw;
 }
 
 #logo-container img{
