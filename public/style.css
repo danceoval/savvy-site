@@ -1204,7 +1204,7 @@ section {
 
 .privacy-policy{
   font-size: 0.75rem;
-  margin-top: 4rem;
+  margin-top: 5rem;
   margin-bottom: 1rem;
   display: inline-block;
   width: 28rem;
@@ -1216,7 +1216,6 @@ section {
 }
 
 #privacy-policy-container {
-  margin-top: 4rem;
   background-color: #f0f0f0;
   color: #242456;
 }
