@@ -291,8 +291,8 @@ section {
 #main-container {
   display: flex;
   flex-direction: row;
-  padding-top: 5rem;
-  margin-bottom: 4rem;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 
@@ -326,7 +326,7 @@ section {
 }
 
 #main p{
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: #242456;
 }
 
@@ -566,7 +566,7 @@ section {
   color: #242456;
   margin-right: 4rem;
   margin-left: 2rem;
-  width: 400px;
+  width: 450px;
 }
 
 #empower-text h2{
