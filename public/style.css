@@ -565,8 +565,8 @@ section {
   flex-direction: column;
   color: #242456;
   margin-right: 4rem;
-  margin-left: auto;
-  width: 500px;
+  margin-left: 2rem;
+  width: 400px;
 }
 
 #empower-text h2{
