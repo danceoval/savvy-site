@@ -457,7 +457,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 5vw;
+  margin: 10vw;
 }
 
 #logo-container img{
