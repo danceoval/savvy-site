@@ -109,7 +109,6 @@ img {
   display: flex;
   flex-direction: row;
   min-height: 5rem;
-  padding-left: calc(10vw + 2rem);
 }
 
 #logo-footer{
